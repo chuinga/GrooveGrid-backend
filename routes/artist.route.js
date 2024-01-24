@@ -1,10 +1,7 @@
-const router = require('express').Router();
+const router = require("express").Router();
 
 // GET all Artists
-router.get('/', async (req, res) => {
-    try {
-        
-    } catch (error) {
-        
-    }
-})
+router.get("/", async (req, res) => {
+  try {
+  } catch (error) {}
+});

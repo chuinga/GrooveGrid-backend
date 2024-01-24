@@ -1,7 +1,7 @@
 const router = require("express").Router();
 
 // Import the models
-const Genre = require("../models/Genre.model");
+const Genre = require("../models/Genre.model.js");
 
 // GET all Genres
 router.get("/genres", async (req, res) => {
@@ -36,7 +36,7 @@ router.post("/genres", async (req, res) => {
   }
 });
 // PUT update the genre
-router.put("/genre/:genreId", async (req, res) => {
+router.put("/genres/:genreId", async (req, res) => {
   const { genreId } = req.params;
   const payload = req.body;
   try {
