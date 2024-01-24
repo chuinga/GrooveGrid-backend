@@ -4,7 +4,7 @@ router.get('/', (req, res) => {
   res.json('All good in here');
 })
 
-const artistRouter = require('./artist.route');
-router.use('/artist', artistRouter);
+const artistsRouter = require('./artists.routes');
+router.use('/artists', artistsRouter);
 
 module.exports = router;
