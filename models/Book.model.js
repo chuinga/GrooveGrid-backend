@@ -8,7 +8,7 @@ const bookSchema = new Schema(
       required: [true, "Title is required."],
       trim: true,
     },
-    author: {
+    artist: {
       type: String,
       required: [true, "Author is required."],
       trim: true,
