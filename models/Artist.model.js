@@ -8,7 +8,7 @@ const artistSchema = new mongoose.Schema({
     },
     genre: {
         type: mongoose.Schema.Types.ObjectId,
-        ref: 'genre',
+        ref: 'Genre',
     },
 
     image: {
@@ -18,7 +18,7 @@ const artistSchema = new mongoose.Schema({
     albums: [
         {
             type: mongoose.Schema.Types.ObjectId,
-            ref: 'albums',
+            ref: 'Album',
         },
     ],
 });
