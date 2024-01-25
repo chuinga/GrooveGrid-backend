@@ -1,7 +1,7 @@
 const Songs = require("../models/Songs.model");
 const router = require("express").Router();
 
-// create new Song
+// POST create new Song
 router.post("/", async (req, res, next) => {
   const payload = req.body;
   try {
@@ -12,35 +12,34 @@ router.post("/", async (req, res, next) => {
   }
 });
 
-// get all Songs
-router.get("/", async (req, res) => {
-    try {
-      const allSongs = await Songs.find();
-      .populate('artist')
-        .populate('album')
-        .populate('genres');
-      res.status(200).json(allSongs);
-    }
-    catch (error) {
-      res.status(500).json({ message: 'Error getting all the Songs!!!' });
-    }
-  })
+// GET all Songs
+router.get("/", async (req, res, next) => {
+  try {
+    const allSongs = await Songs.find()
+      .populate("artist")
+      .populate("album")
+      .populate("genres");
+    res.status(200).json(allSongs);
+  } catch (error) {
+    next(error);
+  }
+});
 
-  // get one Song
-  router.get("/:songId", async (req, res) => {
-    try {
-      const songId = req.params.songId;
-      const oneSong = await Songs.findById(songId);
-      .populate('artist')
-        .populate('album')
-        .populate('genres');
-      res.status(200).json(oneSong);
-    } catch (error) {
-      res.status(500).json({ message: `Error getting one Song` });
-    }
-  });
+// GET one Song
+router.get("/:songId", async (req, res, next) => {
+  try {
+    const songId = req.params.songId;
+    const oneSong = await Songs.findById(songId)
+      .populate("artist")
+      .populate("album")
+      .populate("genres");
+    res.status(200).json(oneSong);
+  } catch (error) {
+    next(error);
+  }
+});
 
-// update one Song
+// UPDATE one Song
 router.put("/:songId", async (req, res, next) => {
   try {
     const songId = req.params.songId;
@@ -57,7 +56,7 @@ router.put("/:songId", async (req, res, next) => {
   }
 });
 
-// delete one Song
+// DELETE one Song
 router.delete("/:songId", async (req, res, next) => {
   try {
     const songId = req.params.songId;
