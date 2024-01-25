@@ -13,25 +13,32 @@ router.post("/", async (req, res, next) => {
 });
 
 // get all Songs
-router.get("/", async (req, res, next) => {
-  try {
-    const allSongs = await Songs.find();
-    res.status(200).json(allSongs);
-  } catch (error) {
-    next(error);
-  }
-});
+router.get("/", async (req, res) => {
+    try {
+      const allSongs = await Songs.find();
+      .populate('artist')
+        .populate('album')
+        .populate('genres');
+      res.status(200).json(allSongs);
+    }
+    catch (error) {
+      res.status(500).json({ message: 'Error getting all the Songs!!!' });
+    }
+  })
 
-// get one Song
-router.get("/:songId", async (req, res, next) => {
-  try {
-    const songId = req.params.songId;
-    const oneSong = await Songs.findById(songId);
-    res.status(200).json(oneSong);
-  } catch (error) {
-    next(error);
-  }
-});
+  // get one Song
+  router.get("/:songId", async (req, res) => {
+    try {
+      const songId = req.params.songId;
+      const oneSong = await Songs.findById(songId);
+      .populate('artist')
+        .populate('album')
+        .populate('genres');
+      res.status(200).json(oneSong);
+    } catch (error) {
+      res.status(500).json({ message: `Error getting one Song` });
+    }
+  });
 
 // update one Song
 router.put("/:songId", async (req, res, next) => {
