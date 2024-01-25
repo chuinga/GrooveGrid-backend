@@ -14,10 +14,15 @@ router.post('/', async (req, res) => {
     }
 });
 
+
+
 // get all Artists
 router.get('/', async (req, res) => {
     try {
-        const allArtists = await Artist.find();
+        const allArtists = await Artist.find()
+            .populate('albums')
+            .populate('genre');
+
         res.status(200).json(allArtists);
     } catch (error) {
         res.status(500).json({ message: 'Error getting all the Artists!!!' });
@@ -28,12 +33,17 @@ router.get('/', async (req, res) => {
 router.get('/:artistId', async (req, res) => {
     const { artistId } = req.params;
     try {
-        const oneArtist = await Artist.findById(artistId);
+        const oneArtist = await Artist.findById(artistId)
+            .populate('albums')
+            .populate('genre');
+
         res.status(200).json(oneArtist);
     } catch (error) {
-        res.status(500).json({ message: `Error getting ${artistId}` });
+        res.status(500).json({ message: `Error getting one artist!!!` });
     }
 });
+
+
 
 // update one Artist
 router.put('/:artistId', async (req, res) => {
