@@ -31,7 +31,7 @@
         "title": "The Dark Side of the Moon",
         "artist": ["65b244485279b07e4df59554"],
         "releaseDate": "1973-03-01",
-        "genre": "Progressive Rock",
+        "genre": ["65b23f115279b07e4df59519"],
         "tracks": [
             { "title": "Speak to Me" },
             { "title": "Breathe" },
@@ -265,7 +265,7 @@
         "title": "My Beautiful Dark Twisted Fantasy",
         "artist": ["65b244485279b07e4df5955c"],
         "releaseDate": "2010-11-22",
-        "genre": "Hip Hop",
+        "genre": ["65b23f115279b07e4df5951a"],
         "tracks": [
             { "title": "Runaway" },
             { "title": "Power" },
@@ -341,9 +341,9 @@
     },
     {
         "title": "Legend",
-        "artist": "Bob Marley",
+        "artist": "65b279ae5279b07e4df595c5",
         "releaseDate": "1984-05-08",
-        "genre": "Reggae",
+        "genre": ["65b23f115279b07e4df59520"],
         "tracks": [
             { "title": "Is This Love" },
             { "title": "No Woman, No Cry" },
