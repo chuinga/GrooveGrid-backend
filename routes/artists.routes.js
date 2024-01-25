@@ -1,20 +1,11 @@
+const { isAuthenticated } = require("../middleware/middleware.js");
+// Import the models
+const Artist = require("../models/Artist.model");
+const User = require("../models/User.model");
+
 const router = require("express").Router();
 
-const Artist = require("../models/Artist.model");
-
-// create new Artist
-router.post("/", async (req, res, next) => {
-  const payload = req.body;
-  try {
-    const createdArtist = await Artist.create(payload);
-    res.status(201).json(createdArtist);
-  } catch (error) {
-    console.log(error);
-    next(error); // Pass the error to the error handling middleware
-  }
-});
-
-// get all Artists
+// GET all Artists
 router.get("/", async (req, res, next) => {
   try {
     const allArtists = await Artist.find().populate("albums").populate("genre");
@@ -24,7 +15,7 @@ router.get("/", async (req, res, next) => {
   }
 });
 
-// get one Artist
+// GET one Artist
 router.get("/:artistId", async (req, res, next) => {
   const { artistId } = req.params;
   try {
@@ -37,13 +28,28 @@ router.get("/:artistId", async (req, res, next) => {
   }
 });
 
-// update one Artist
-router.put("/:artistId", async (req, res, next) => {
-  const { artistId } = req.params;
+// POST a new Artist
+router.post("/", isAuthenticated, async (req, res, next) => {
   const payload = req.body;
+  const { userId } = req.payload;
+  payload.createdBy = userId;
+  try {
+    const createdArtist = await Artist.create(payload);
+    res.status(201).json(createdArtist);
+  } catch (error) {
+    console.log(error);
+    next(error); // Pass the error to the error handling middleware
+  }
+});
+
+// PUT update one Artist
+router.put("/:artistId", isAuthenticated, async (req, res, next) => {
+  const { userId } = req.payload;
+  const payload = req.body;
+  const { artistId } = req.params;
   try {
     const artistToUpdate = await Artist.findById(artistId);
-    if (artistToUpdate) {
+    if (artistToUpdate.createdBy == userId) {
       const updatedArtist = await Artist.findByIdAndUpdate(artistId, payload, {
         new: true,
       });
@@ -56,12 +62,18 @@ router.put("/:artistId", async (req, res, next) => {
   }
 });
 
-// delete one Artist
-router.delete("/:artistId", async (req, res, next) => {
+// DELETE Artist
+router.delete("/:artistId", isAuthenticated, async (req, res, next) => {
+  const { userId } = req.payload;
   const { artistId } = req.params;
   try {
-    const artistToDelete = await Artist.findByIdAndDelete(artistId);
-    res.status(204).json({ message: "Artist Deleted" });
+    const artistToDelete = await Artist.findById(artistId);
+    if (artistToDelete.createdBy == userId) {
+      await Artist.findByIdAndDelete(artistId);
+      res.status(204).json();
+    } else {
+      res.status(404).json({ message: "Genre not found" });
+    }
   } catch (error) {
     next(error);
   }

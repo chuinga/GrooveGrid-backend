@@ -1,16 +1,17 @@
-const router = require("express").Router();
-
+const { isAuthenticated } = require("../middleware/middleware.js");
 // Import the models
 const Genre = require("../models/Genre.model.js");
+const User = require("../models/User.model");
+
+const router = require("express").Router();
 
 // GET all Genres
-router.get("/genres", async (req, res, next) => {
+router.get("/", async (req, res, next) => {
   try {
     const allGenres = await Genre.find()
       .populate("artists")
       .populate("albums")
       .populate("songs");
-
     res.status(200).json(allGenres);
   } catch (error) {
     console.log(error);
@@ -19,7 +20,7 @@ router.get("/genres", async (req, res, next) => {
 });
 
 // GET one genre
-router.get("/genres/:genreId", async (req, res, next) => {
+router.get("/:genreId", async (req, res, next) => {
   const { genreId } = req.params;
   try {
     const oneGenre = await Genre.findById(genreId)
@@ -34,8 +35,10 @@ router.get("/genres/:genreId", async (req, res, next) => {
 });
 
 // POST a new genre
-router.post("/genres", async (req, res, next) => {
+router.post("/", isAuthenticated, async (req, res, next) => {
   const payload = req.body;
+  const { userId } = req.payload;
+  payload.createdBy = userId;
   try {
     const createdGenre = await Genre.create(payload);
     res.status(201).json(createdGenre);
@@ -46,12 +49,13 @@ router.post("/genres", async (req, res, next) => {
 });
 
 // PUT update the genre
-router.put("/genres/:genreId", async (req, res, next) => {
-  const { genreId } = req.params;
+router.put("/:genreId", isAuthenticated, async (req, res, next) => {
+  const { userId } = req.payload;
   const payload = req.body;
+  const { genreId } = req.params;
   try {
     const genreToUpdate = await Genre.findById(genreId);
-    if (genreToUpdate) {
+    if (genreToUpdate.createdBy == userId) {
       const updatedGenre = await Genre.findByIdAndUpdate(genreId, payload, {
         new: true,
       });
@@ -66,11 +70,12 @@ router.put("/genres/:genreId", async (req, res, next) => {
 });
 
 // DELETE genre
-router.delete("/genres/:genreId", async (req, res, next) => {
+router.delete("/:genreId", isAuthenticated, async (req, res, next) => {
+  const { userId } = req.payload;
   const { genreId } = req.params;
   try {
     const genreToDelete = await Genre.findById(genreId);
-    if (genreToDelete) {
+    if (genreToDelete.createdBy == userId) {
       await Genre.findByIdAndDelete(genreId);
       res.status(204).json();
     } else {

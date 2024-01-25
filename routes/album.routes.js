@@ -1,8 +1,10 @@
-const router = require("express").Router();
+const { isAuthenticated } = require("../middleware/middleware.js");
 // Import the models
 const Album = require("../models/Album.model");
+const User = require("../models/User.model");
+const router = require("express").Router();
 
-// GET all albums
+// GET all Albums
 router.get("/", async (req, res, next) => {
   try {
     const allAlbums = await Album.find()
@@ -15,12 +17,13 @@ router.get("/", async (req, res, next) => {
     next(error); // Pass the error to the error handling middleware
   }
 });
+
 // GET one album
 router.get("/:albumId", async (req, res, next) => {
   const { albumId } = req.params;
   try {
     const oneAlbum = await Album.findById(albumId)
-      .populate("artis")
+      .populate("artist")
       .populate("genre")
       .populate("tracks");
     res.status(200).json(oneAlbum);
@@ -29,9 +32,12 @@ router.get("/:albumId", async (req, res, next) => {
     next(error);
   }
 });
+
 // POST one album
-router.post("/", async (req, res, next) => {
+router.post("/", isAuthenticated, async (req, res, next) => {
   const payload = req.body;
+  const { userId } = req.payload;
+  payload.createdBy = userId;
   try {
     const createdAlbum = await Album.create(payload);
     res.status(201).json(createdAlbum);
@@ -40,13 +46,15 @@ router.post("/", async (req, res, next) => {
     next(error);
   }
 });
+
 // PUT one album
-router.put("/:albumId", async (req, res, next) => {
-  const { albumId } = req.params;
+router.put("/:albumId", isAuthenticated, async (req, res, next) => {
+  const { userId } = req.payload;
   const payload = req.body;
+  const { albumId } = req.params;
   try {
     const albumToUpdate = await Album.findById(albumId);
-    if (albumToUpdate) {
+    if (albumToUpdate.createdBy == userId) {
       const updatedAlbum = await Album.findByIdAndUpdate(albumId, payload, {
         new: true,
       });
@@ -59,12 +67,14 @@ router.put("/:albumId", async (req, res, next) => {
     next(error);
   }
 });
+
 // DELETE one album
-router.delete("/:albumId", async (req, res, next) => {
+router.delete("/:albumId", isAuthenticated, async (req, res, next) => {
+  const { userId } = req.payload;
   const { albumId } = req.params;
   try {
     const albumToDelete = await Album.findById(albumId);
-    if (albumToDelete) {
+    if (albumToDelete.createdBy == userId) {
       await Album.findByIdAndDelete(albumId);
       res.status(204).json();
     } else {
