@@ -1,0 +1,428 @@
+[
+    {
+        "name": "Adele",
+        "genre": "Pop",
+        "image": "adele.jpg",
+        "albums": []
+    },
+    {
+        "name": "Coldplay",
+        "genre": "Rock",
+        "image": "coldplay.jpg",
+        "albums": []
+    },
+    {
+        "name": "Drake",
+        "genre": "Hip Hop",
+        "image": "drake.jpg",
+        "albums": []
+    },
+    {
+        "name": "Ariana Grande",
+        "genre": "Pop",
+        "image": "ariana_grande.jpg",
+        "albums": []
+    },
+    {
+        "name": "Imagine Dragons",
+        "genre": "Rock",
+        "image": "imagine_dragons.jpg",
+        "albums": []
+    },
+    {
+        "name": "Kanye West",
+        "genre": "Hip Hop",
+        "image": "kanye_west.jpg",
+        "albums": []
+    },
+    {
+        "name": "Lady Gaga",
+        "genre": "Pop",
+        "image": "lady_gaga.jpg",
+        "albums": []
+    },
+    {
+        "name": "Linkin Park",
+        "genre": "Rock",
+        "image": "linkin_park.jpg",
+        "albums": []
+    },
+    {
+        "name": "Eminem",
+        "genre": "Hip Hop",
+        "image": "eminem.jpg",
+        "albums": []
+    },
+    {
+        "name": "Selena Gomez",
+        "genre": "Pop",
+        "image": "selena_gomez.jpg",
+        "albums": []
+    },
+    {
+        "name": "Red Hot Chili Peppers",
+        "genre": "Rock",
+        "image": "rhcp.jpg",
+        "albums": []
+    },
+    {
+        "name": "Travis Scott",
+        "genre": "Hip Hop",
+        "image": "travis_scott.jpg",
+        "albums": []
+    },
+    {
+        "name": "Sia",
+        "genre": "Pop",
+        "image": "sia.jpg",
+        "albums": []
+    },
+    {
+        "name": "Foo Fighters",
+        "genre": "Rock",
+        "image": "foo_fighters.jpg",
+        "albums": []
+    },
+    {
+        "name": "Jay-Z",
+        "genre": "Hip Hop",
+        "image": "jay_z.jpg",
+        "albums": []
+    },
+    {
+        "name": "Katy Perry",
+        "genre": "Pop",
+        "image": "katy_perry.jpg",
+        "albums": []
+    },
+    {
+        "name": "Queen",
+        "genre": "Rock",
+        "image": "queen.jpg",
+        "albums": []
+    },
+    {
+        "name": "Cardi B",
+        "genre": "Hip Hop",
+        "image": "cardi_b.jpg",
+        "albums": []
+    },
+    {
+        "name": "Bruno Mars",
+        "genre": "Pop",
+        "image": "bruno_mars.jpg",
+        "albums": []
+    },
+    {
+        "name": "The Rolling Stones",
+        "genre": "Rock",
+        "image": "rolling_stones.jpg",
+        "albums": []
+    },
+    {
+        "name": "Metallica",
+        "genre": "Rock",
+        "image": "metallica.jpg",
+        "albums": []
+    },
+    {
+        "name": "U2",
+        "genre": "Rock",
+        "image": "u2.jpg",
+        "albums": []
+    },
+    {
+        "name": "Nicki Minaj",
+        "genre": "Hip Hop",
+        "image": "nicki_minaj.jpg",
+        "albums": []
+    },
+    {
+        "name": "Future",
+        "genre": "Hip Hop",
+        "image": "future.jpg",
+        "albums": []
+    },
+    {
+        "name": "Alicia Keys",
+        "genre": "R&B",
+        "image": "alicia_keys.jpg",
+        "albums": []
+    },
+    {
+        "name": "Usher",
+        "genre": "R&B",
+        "image": "usher.jpg",
+        "albums": []
+    },
+    {
+        "name": "Shania Twain",
+        "genre": "Country",
+        "image": "shania_twain.jpg",
+        "albums": []
+    },
+    {
+        "name": "Blake Shelton",
+        "genre": "Country",
+        "image": "blake_shelton.jpg",
+        "albums": []
+    },
+    {
+        "name": "Avicii",
+        "genre": "Electronic",
+        "image": "avicii.jpg",
+        "albums": []
+    },
+    {
+        "name": "The Chainsmokers",
+        "genre": "Electronic",
+        "image": "chainsmokers.jpg",
+        "albums": []
+    },
+    {
+        "name": "Miles Davis",
+        "genre": "Jazz",
+        "image": "miles_davis.jpg",
+        "albums": []
+    },
+    {
+        "name": "John Coltrane",
+        "genre": "Jazz",
+        "image": "john_coltrane.jpg",
+        "albums": []
+    },
+    {
+        "name": "Ella Fitzgerald",
+        "genre": "Jazz",
+        "image": "ella_fitzgerald.jpg",
+        "albums": []
+    },
+    {
+        "name": "B.B. King",
+        "genre": "Blues",
+        "image": "bb_king.jpg",
+        "albums": []
+    },
+    {
+        "name": "Eric Clapton",
+        "genre": "Blues",
+        "image": "eric_clapton.jpg",
+        "albums": []
+    },
+    {
+        "name": "Stevie Ray Vaughan",
+        "genre": "Blues",
+        "image": "stevie_ray_vaughan.jpg",
+        "albums": []
+    },
+    {
+        "name": "Bob Marley",
+        "genre": "Reggae",
+        "image": "bob_marley.jpg",
+        "albums": []
+    },
+    {
+        "name": "Damian Marley",
+        "genre": "Reggae",
+        "image": "damian_marley.jpg",
+        "albums": []
+    },
+    {
+        "name": "Toots and the Maytals",
+        "genre": "Reggae",
+        "image": "toots_and_the_maytals.jpg",
+        "albums": []
+    },
+    {
+        "name": "Ludwig van Beethoven",
+        "genre": "Classical",
+        "image": "beethoven.jpg",
+        "albums": []
+    },
+    {
+        "name": "Wolfgang Amadeus Mozart",
+        "genre": "Classical",
+        "image": "mozart.jpg",
+        "albums": []
+    },
+    {
+        "name": "Johann Sebastian Bach",
+        "genre": "Classical",
+        "image": "bach.jpg",
+        "albums": []
+    },
+    {
+        "name": "James Brown",
+        "genre": "Funk",
+        "image": "james_brown.jpg",
+        "albums": []
+    },
+    {
+        "name": "Parliament-Funkadelic",
+        "genre": "Funk",
+        "image": "parliament_funkadelic.jpg",
+        "albums": []
+    },
+    {
+        "name": "Stevie Wonder",
+        "genre": "Funk",
+        "image": "stevie_wonder.jpg",
+        "albums": []
+    },
+    {
+        "name": "Aretha Franklin",
+        "genre": "Soul",
+        "image": "aretha_franklin.jpg",
+        "albums": []
+    },
+    {
+        "name": "Ray Charles",
+        "genre": "Soul",
+        "image": "ray_charles.jpg",
+        "albums": []
+    },
+    {
+        "name": "Otis Redding",
+        "genre": "Soul",
+        "image": "otis_redding.jpg",
+        "albums": []
+    },
+    {
+        "name": "Metallica",
+        "genre": "Metal",
+        "image": "metallica.jpg",
+        "albums": []
+    },
+    {
+        "name": "Black Sabbath",
+        "genre": "Metal",
+        "image": "black_sabbath.jpg",
+        "albums": []
+    },
+    {
+        "name": "Iron Maiden",
+        "genre": "Metal",
+        "image": "iron_maiden.jpg",
+        "albums": []
+    },
+    {
+        "name": "Arctic Monkeys",
+        "genre": "Indie",
+        "image": "arctic_monkeys.jpg",
+        "albums": []
+    },
+    {
+        "name": "The Strokes",
+        "genre": "Indie",
+        "image": "the_strokes.jpg",
+        "albums": []
+    },
+    {
+        "name": "Vampire Weekend",
+        "genre": "Indie",
+        "image": "vampire_weekend.jpg",
+        "albums": []
+    },
+    {
+        "name": "Radiohead",
+        "genre": "Alternative",
+        "image": "radiohead.jpg",
+        "albums": []
+    },
+    {
+        "name": "The Killers",
+        "genre": "Alternative",
+        "image": "the_killers.jpg",
+        "albums": []
+    },
+    {
+        "name": "Arcade Fire",
+        "genre": "Alternative",
+        "image": "arcade_fire.jpg",
+        "albums": []
+    },
+    {
+        "name": "Ramones",
+        "genre": "Punk",
+        "image": "ramones.jpg",
+        "albums": []
+    },
+    {
+        "name": "Sex Pistols",
+        "genre": "Punk",
+        "image": "sex_pistols.jpg",
+        "albums": []
+    },
+    {
+        "name": "The Clash",
+        "genre": "Punk",
+        "image": "the_clash.jpg",
+        "albums": []
+    },
+    {
+        "name": "Fela Kuti",
+        "genre": "World",
+        "image": "fela_kuti.jpg",
+        "albums": []
+    },
+    {
+        "name": "Ravi Shankar",
+        "genre": "World",
+        "image": "ravi_shankar.jpg",
+        "albums": []
+    },
+    {
+        "name": "Buena Vista Social Club",
+        "genre": "World",
+        "image": "buena_vista_social_club.jpg",
+        "albums": []
+    },
+    {
+        "name": "Maroon 5",
+        "genre": "Pop Rock",
+        "image": "maroon_5.jpg",
+        "albums": []
+    },
+    {
+        "name": "OneRepublic",
+        "genre": "Pop Rock",
+        "image": "onerepublic.jpg",
+        "albums": []
+    },
+    {
+        "name": "Ed Sheeran",
+        "genre": "Acoustic",
+        "image": "ed_sheeran.jpg",
+        "albums": []
+    },
+    {
+        "name": "Jason Mraz",
+        "genre": "Acoustic",
+        "image": "jason_mraz.jpg",
+        "albums": []
+    },
+    {
+        "name": "Norah Jones",
+        "genre": "Acoustic",
+        "image": "norah_jones.jpg",
+        "albums": []
+    },
+    {
+        "name": "Calvin Harris",
+        "genre": "Dance",
+        "image": "calvin_harris.jpg",
+        "albums": []
+    },
+    {
+        "name": "David Guetta",
+        "genre": "Dance",
+        "image": "david_guetta.jpg",
+        "albums": []
+    },
+    {
+        "name": "Marshmello",
+        "genre": "Dance",
+        "image": "marshmello.jpg",
+        "albums": []
+    }
+]
