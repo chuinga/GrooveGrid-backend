@@ -6,24 +6,33 @@ const Genre = require("../models/Genre.model.js");
 // GET all Genres
 router.get("/genres", async (req, res, next) => {
   try {
-    const allGenres = await Genre.find();
+    const allGenres = await Genre.find()
+      .populate("artists")
+      .populate("albums")
+      .populate("songs");
+
     res.status(200).json(allGenres);
   } catch (error) {
     console.log(error);
     next(error); // Pass the error to the error handling middleware
   }
 });
+
 // GET one genre
 router.get("/genres/:genreId", async (req, res, next) => {
   const { genreId } = req.params;
   try {
-    const oneGenre = await Genre.findById(genreId);
+    const oneGenre = await Genre.findById(genreId)
+      .populate("artists")
+      .populate("albums")
+      .populate("songs");
     res.status(200).json(oneGenre);
   } catch (error) {
     console.log(error);
     next(error);
   }
 });
+
 // POST a new genre
 router.post("/genres", async (req, res, next) => {
   const payload = req.body;
@@ -35,6 +44,7 @@ router.post("/genres", async (req, res, next) => {
     next(error);
   }
 });
+
 // PUT update the genre
 router.put("/genres/:genreId", async (req, res, next) => {
   const { genreId } = req.params;
@@ -54,6 +64,7 @@ router.put("/genres/:genreId", async (req, res, next) => {
     next(error);
   }
 });
+
 // DELETE genre
 router.delete("/genres/:genreId", async (req, res, next) => {
   const { genreId } = req.params;

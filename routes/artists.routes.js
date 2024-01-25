@@ -17,7 +17,7 @@ router.post("/", async (req, res, next) => {
 // get all Artists
 router.get("/", async (req, res, next) => {
   try {
-    const allArtists = await Artist.find();
+    const allArtists = await Artist.find().populate("albums").populate("genre");
     res.status(200).json(allArtists);
   } catch (error) {
     next(error);
@@ -28,7 +28,9 @@ router.get("/", async (req, res, next) => {
 router.get("/:artistId", async (req, res, next) => {
   const { artistId } = req.params;
   try {
-    const oneArtist = await Artist.findById(artistId);
+    const oneArtist = await Artist.findById(artistId)
+      .populate("albums")
+      .populate("genre");
     res.status(200).json(oneArtist);
   } catch (error) {
     next(error);
