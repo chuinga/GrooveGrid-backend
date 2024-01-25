@@ -1,0 +1,342 @@
+[
+    {
+        "title": "Thriller",
+        "artist": ["65b244485279b07e4df59552"],
+        "releaseDate": "1982-11-30",
+        "genre": "Pop",
+        "tracks": [
+            { "title": "Wanna Be Startin' Somethin'" },
+            { "title": "Baby Be Mine" },
+            { "title": "The Girl Is Mine" },
+            { "title": "Thriller" }
+        ],
+        "coverImageUrl": "thriller_cover.jpg",
+        "description": "Thriller is the sixth studio album by Michael Jackson."
+    },
+    {
+        "title": "Back in Black",
+        "artist": ["65b244485279b07e4df59553"],
+        "releaseDate": "1980-07-25",
+        "genre": "Rock",
+        "tracks": [
+            { "title": "Hells Bells" },
+            { "title": "Shoot to Thrill" },
+            { "title": "Back in Black" },
+            { "title": "You Shook Me All Night Long" }
+        ],
+        "coverImageUrl": "back_in_black_cover.jpg",
+        "description": "Back in Black is the seventh studio album by AC/DC."
+    },
+    {
+        "title": "The Dark Side of the Moon",
+        "artist": ["65b244485279b07e4df59554"],
+        "releaseDate": "1973-03-01",
+        "genre": "Progressive Rock",
+        "tracks": [
+            { "title": "Speak to Me" },
+            { "title": "Breathe" },
+            { "title": "On the Run" },
+            { "title": "Time" },
+            { "title": "The Great Gig in the Sky" }
+        ],
+        "coverImageUrl": "dark_side_of_the_moon_cover.jpg",
+        "description": "The Dark Side of the Moon is the eighth studio album by Pink Floyd."
+    },
+    {
+        "title": "Abbey Road",
+        "artist": ["65b244485279b07e4df59555"],
+        "releaseDate": "1969-09-26",
+        "genre": "Rock",
+        "tracks": [
+            { "title": "Come Together" },
+            { "title": "Something" },
+            { "title": "Oh! Darling" },
+            { "title": "Here Comes the Sun" }
+        ],
+        "coverImageUrl": "abbey_road_cover.jpg",
+        "description": "Abbey Road is the eleventh studio album by The Beatles."
+    },
+    {
+        "title": "Rumours",
+        "artist": ["65b244485279b07e4df59556"],
+        "releaseDate": "1977-02-04",
+        "genre": "Rock",
+        "tracks": [
+            { "title": "Second Hand News" },
+            { "title": "Go Your Own Way" },
+            { "title": "Dreams" },
+            { "title": "The Chain" }
+        ],
+        "coverImageUrl": "rumours_cover.jpg",
+        "description": "Rumours is the eleventh studio album by Fleetwood Mac."
+    },
+    {
+        "title": "Back to Black",
+        "artist": ["65b244485279b07e4df59557"],
+        "releaseDate": "2006-10-27",
+        "genre": "Soul",
+        "tracks": [
+            { "title": "Rehab" },
+            { "title": "You Know I'm No Good" },
+            { "title": "Back to Black" },
+            { "title": "Valerie" }
+        ],
+        "coverImageUrl": "back_to_black_cover.jpg",
+        "description": "Back to Black is the second studio album by Amy Winehouse."
+    },
+    {
+        "title": "The Wall",
+        "artist": ["65b244485279b07e4df59554"],
+        "releaseDate": "1979-11-30",
+        "genre": "Progressive Rock",
+        "tracks": [
+            { "title": "Another Brick in the Wall (Part 2)" },
+            { "title": "Comfortably Numb" },
+            { "title": "Hey You" },
+            { "title": "Mother" }
+        ],
+        "coverImageUrl": "the_wall_cover.jpg",
+        "description": "The Wall is the eleventh studio album by Pink Floyd."
+    },
+    {
+        "title": "Led Zeppelin IV",
+        "artist": ["65b24a785279b07e4df59572"],
+        "releaseDate": "1971-11-08",
+        "genre": "Rock",
+        "tracks": [
+            { "title": "Black Dog" },
+            { "title": "Rock and Roll" },
+            { "title": "Stairway to Heaven" },
+            { "title": "Misty Mountain Hop" }
+        ],
+        "coverImageUrl": "led_zeppelin_iv_cover.jpg",
+        "description": "Led Zeppelin IV is the fourth studio album by Led Zeppelin."
+    },
+    {
+        "title": "A Night at the Opera",
+        "artist": ["65b244485279b07e4df59562"],
+        "releaseDate": "1975-11-21",
+        "genre": "Rock",
+        "tracks": [
+            { "title": "Bohemian Rhapsody" },
+            { "title": "You're My Best Friend" },
+            { "title": "Love of My Life" },
+            { "title": "Somebody to Love" }
+        ],
+        "coverImageUrl": "a_night_at_the_opera_cover.jpg",
+        "description": "A Night at the Opera is the fourth studio album by Queen."
+    },
+    {
+        "title": "The Joshua Tree",
+        "artist": ["65b244485279b07e4df59563"],
+        "releaseDate": "1987-03-09",
+        "genre": "Rock",
+        "tracks": [
+            { "title": "Where the Streets Have No Name" },
+            { "title": "With or Without You" },
+            { "title": "I Still Haven't Found What I'm Looking For" },
+            { "title": "Bullet the Blue Sky" }
+        ],
+        "coverImageUrl": "the_joshua_tree_cover.jpg",
+        "description": "The Joshua Tree is the fifth studio album by U2."
+    },
+    {
+        "title": "Kind of Blue",
+        "artist": ["65b244485279b07e4df59564"],
+        "releaseDate": "1959-08-17",
+        "genre": "Jazz",
+        "tracks": [
+            { "title": "So What" },
+            { "title": "Freddie Freeloader" },
+            { "title": "Blue in Green" },
+            { "title": "All Blues" }
+        ],
+        "coverImageUrl": "kind_of_blue_cover.jpg",
+        "description": "Kind of Blue is the ninth studio album by Miles Davis."
+    },
+    {
+        "title": "The Suburbs",
+        "artist": ["65b244485279b07e4df59565"],
+        "releaseDate": "2010-08-02",
+        "genre": "Indie",
+        "tracks": [
+            { "title": "The Suburbs" },
+            { "title": "Ready to Start" },
+            { "title": "Modern Man" },
+            { "title": "Sprawl II (Mountains Beyond Mountains)" }
+        ],
+        "coverImageUrl": "the_suburbs_cover.jpg",
+        "description": "The Suburbs is the third studio album by Arcade Fire."
+    },
+    {
+        "title": "Achtung Baby",
+        "artist": ["65b244485279b07e4df59563"],
+        "releaseDate": "1991-11-18",
+        "genre": "Rock",
+        "tracks": [
+            { "title": "One" },
+            { "title": "Mysterious Ways" },
+            { "title": "The Fly" },
+            { "title": "Even Better Than the Real Thing" }
+        ],
+        "coverImageUrl": "achtung_baby_cover.jpg",
+        "description": "Achtung Baby is the seventh studio album by U2."
+    },
+    {
+        "title": "Bad",
+        "artist": ["65b244485279b07e4df59552"],
+        "releaseDate": "1987-08-31",
+        "genre": "Pop",
+        "tracks": [
+            { "title": "Bad" },
+            { "title": "The Way You Make Me Feel" },
+            { "title": "Man in the Mirror" },
+            { "title": "Smooth Criminal" }
+        ],
+        "coverImageUrl": "bad_cover.jpg",
+        "description": "Bad is the seventh studio album by Michael Jackson."
+    },
+    {
+        "title": "21",
+        "artist": ["65b244485279b07e4df59566"],
+        "releaseDate": "2011-01-24",
+        "genre": "Pop",
+        "tracks": [
+            { "title": "Rolling in the Deep" },
+            { "title": "Someone Like You" },
+            { "title": "Set Fire to the Rain" }
+        ],
+        "coverImageUrl": "adele_21_cover.jpg",
+        "description": "21 is the second studio album by Adele."
+    },
+    {
+        "title": "A Head Full of Dreams",
+        "artist": ["65b244485279b07e4df59558"],
+        "releaseDate": "2015-12-04",
+        "genre": "Rock",
+        "tracks": [
+            { "title": "Adventure of a Lifetime" },
+            { "title": "Hymn for the Weekend" },
+            { "title": "Up&Up" }
+        ],
+        "coverImageUrl": "coldplay_a_head_full_of_dreams_cover.jpg",
+        "description": "A Head Full of Dreams is the seventh studio album by Coldplay."
+    },
+    {
+        "title": "Views",
+        "artist": ["65b244485279b07e4df59559"],
+        "releaseDate": "2016-04-29",
+        "genre": "Hip Hop",
+        "tracks": [
+            { "title": "Hotline Bling" },
+            { "title": "One Dance" },
+            { "title": "Controlla" }
+        ],
+        "coverImageUrl": "drake_views_cover.jpg",
+        "description": "Views is the fourth studio album by Drake."
+    },
+    {
+        "title": "Sweetener",
+        "artist": ["65b244485279b07e4df5955a"],
+        "releaseDate": "2018-08-17",
+        "genre": "Pop",
+        "tracks": [
+            { "title": "No Tears Left to Cry" },
+            { "title": "God Is a Woman" },
+            { "title": "Breathin" }
+        ],
+        "coverImageUrl": "ariana_grande_sweetener_cover.jpg",
+        "description": "Sweetener is the fourth studio album by Ariana Grande."
+    },
+    {
+        "title": "Evolve",
+        "artist": ["65b244485279b07e4df5955b"],
+        "releaseDate": "2017-06-23",
+        "genre": "Rock",
+        "tracks": [
+            { "title": "Believer" },
+            { "title": "Thunder" },
+            { "title": "Whatever It Takes" }
+        ],
+        "coverImageUrl": "imagine_dragons_evolve_cover.jpg",
+        "description": "Evolve is the third studio album by Imagine Dragons."
+    },
+    {
+        "title": "My Beautiful Dark Twisted Fantasy",
+        "artist": ["65b244485279b07e4df5955c"],
+        "releaseDate": "2010-11-22",
+        "genre": "Hip Hop",
+        "tracks": [
+            { "title": "Runaway" },
+            { "title": "Power" },
+            { "title": "Monster" }
+        ],
+        "coverImageUrl": "kanye_west_my_beautiful_dark_twisted_fantasy_cover.jpg",
+        "description": "My Beautiful Dark Twisted Fantasy is the fifth studio album by Kanye West."
+    },
+    {
+        "title": "The Fame",
+        "artist": ["65b244485279b07e4df5955d"],
+        "releaseDate": "2008-08-19",
+        "genre": "Pop",
+        "tracks": [
+            { "title": "Just Dance" },
+            { "title": "Poker Face" },
+            { "title": "Bad Romance" }
+        ],
+        "coverImageUrl": "lady_gaga_the_fame_cover.jpg",
+        "description": "The Fame is the debut studio album by Lady Gaga."
+    },
+    {
+        "title": "Hybrid Theory",
+        "artist": ["65b244485279b07e4df5955e"],
+        "releaseDate": "2000-10-24",
+        "genre": "Rock",
+        "tracks": [
+            { "title": "In the End" },
+            { "title": "Crawling" },
+            { "title": "One Step Closer" }
+        ],
+        "coverImageUrl": "linkin_park_hybrid_theory_cover.jpg",
+        "description": "Hybrid Theory is the debut studio album by Linkin Park."
+    },
+    {
+        "title": "The Marshall Mathers LP",
+        "artist": ["65b244485279b07e4df5955f"],
+        "releaseDate": "2000-05-23",
+        "genre": "Hip Hop",
+        "tracks": [
+            { "title": "The Real Slim Shady" },
+            { "title": "Stan" },
+            { "title": "The Way I Am" }
+        ],
+        "coverImageUrl": "eminem_the_marshall_mathers_lp_cover.jpg",
+        "description": "The Marshall Mathers LP is the third studio album by Eminem."
+    },
+    {
+        "title": "Revival",
+        "artist": ["65b244485279b07e4df59560"],
+        "releaseDate": "2015-10-09",
+        "genre": "Pop",
+        "tracks": [
+            { "title": "Good for You" },
+            { "title": "Same Old Love" },
+            { "title": "Hands to Myself" }
+        ],
+        "coverImageUrl": "selena_gomez_revival_cover.jpg",
+        "description": "Revival is the second studio album by Selena Gomez."
+    },
+    {
+        "title": "Californication",
+        "artist": ["65b244485279b07e4df59561"],
+        "releaseDate": "1999-06-08",
+        "genre": "Rock",
+        "tracks": [
+            { "title": "Scar Tissue" },
+            { "title": "Otherside" },
+            { "title": "Californication" }
+        ],
+        "coverImageUrl": "rhcp_californication_cover.jpg",
+        "description": "Californication is the seventh studio album by Red Hot Chili Peppers."
+    }
+]
