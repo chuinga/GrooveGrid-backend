@@ -4,39 +4,39 @@ const router = require("express").Router();
 const Genre = require("../models/Genre.model.js");
 
 // GET all Genres
-router.get("/genres", async (req, res) => {
+router.get("/genres", async (req, res, next) => {
   try {
     const allGenres = await Genre.find();
     res.status(200).json(allGenres);
   } catch (error) {
     console.log(error);
-    res.status(500).json({ message: "error while getting all the genres" });
+    next(error); // Pass the error to the error handling middleware
   }
 });
 // GET one genre
-router.get("/genres/:genreId", async (req, res) => {
+router.get("/genres/:genreId", async (req, res, next) => {
   const { genreId } = req.params;
   try {
     const oneGenre = await Genre.findById(genreId);
     res.status(200).json(oneGenre);
   } catch (error) {
     console.log(error);
-    res.status(500).json({ message: "error while getting this genre" });
+    next(error);
   }
 });
 // POST a new genre
-router.post("/genres", async (req, res) => {
+router.post("/genres", async (req, res, next) => {
   const payload = req.body;
   try {
     const createdGenre = await Genre.create(payload);
     res.status(201).json(createdGenre);
   } catch (error) {
     console.log(error);
-    res.status(500).json({ message: "error while creating new genre" });
+    next(error);
   }
 });
 // PUT update the genre
-router.put("/genres/:genreId", async (req, res) => {
+router.put("/genres/:genreId", async (req, res, next) => {
   const { genreId } = req.params;
   const payload = req.body;
   try {
@@ -51,11 +51,11 @@ router.put("/genres/:genreId", async (req, res) => {
     }
   } catch (error) {
     console.log(error);
-    res.status(500).json({ message: "Error while updating the genre" });
+    next(error);
   }
 });
 // DELETE genre
-router.delete("/genres/:genreId", async (req, res) => {
+router.delete("/genres/:genreId", async (req, res, next) => {
   const { genreId } = req.params;
   try {
     const genreToDelete = await Genre.findById(genreId);
@@ -66,7 +66,7 @@ router.delete("/genres/:genreId", async (req, res) => {
       res.status(404).json({ message: "Genre not found" });
     }
   } catch (error) {
-    res.status(500).json({ message: "Error while deleting the genre" });
+    next(error);
   }
 });
 
