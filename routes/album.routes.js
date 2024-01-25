@@ -3,39 +3,45 @@ const router = require("express").Router();
 const Album = require("../models/Album.model");
 
 // GET all albums
-router.get("/", async (req, res) => {
+router.get("/", async (req, res, next) => {
   try {
-    const allAlbums = await Album.find();
+    const allAlbums = await Album.find()
+      .populate("artist")
+      .populate("genre")
+      .populate("tracks");
     res.status(200).json(allAlbums);
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: "Error getting all the albums" });
+    next(error); // Pass the error to the error handling middleware
   }
 });
 // GET one album
-router.get("/:albumId", async (req, res) => {
+router.get("/:albumId", async (req, res, next) => {
   const { albumId } = req.params;
   try {
-    const oneAlbum = await Album.findById(albumId);
+    const oneAlbum = await Album.findById(albumId)
+      .populate("artis")
+      .populate("genre")
+      .populate("tracks");
     res.status(200).json(oneAlbum);
   } catch (error) {
     console.error(error);
-    res.status(500).json({ message: "Error while getting this album" });
+    next(error);
   }
 });
 // POST one album
-router.post("/", async (req, res) => {
+router.post("/", async (req, res, next) => {
   const payload = req.body;
   try {
     const createdAlbum = await Album.create(payload);
     res.status(201).json(createdAlbum);
   } catch (error) {
     console.log(error);
-    res.status(500).json({ message: "error while creating new album" });
+    next(error);
   }
 });
 // PUT one album
-router.put("/:albumId", async (req, res) => {
+router.put("/:albumId", async (req, res, next) => {
   const { albumId } = req.params;
   const payload = req.body;
   try {
@@ -50,11 +56,11 @@ router.put("/:albumId", async (req, res) => {
     }
   } catch (error) {
     console.log(error);
-    res.status(500).json({ message: "Error while updating the album" });
+    next(error);
   }
 });
 // DELETE one album
-router.delete("/:albumId", async (req, res) => {
+router.delete("/:albumId", async (req, res, next) => {
   const { albumId } = req.params;
   try {
     const albumToDelete = await Album.findById(albumId);
@@ -65,7 +71,7 @@ router.delete("/:albumId", async (req, res) => {
       res.status(404).json({ message: "Album not found" });
     }
   } catch (error) {
-    res.status(500).json({ message: "Error while deleting the album" });
+    next(error);
   }
 });
 
