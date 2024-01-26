@@ -1,17 +1,37 @@
 [
-    { "title": "Wanna Be Startin' Somethin'", "artist": [], "album": [], "genres": [] },
+    {
+        "title": "Wanna Be Startin' Somethin'",
+        "artist": [],
+        "album": [],
+        "genres": []
+    },
     { "title": "Baby Be Mine", "artist": [], "album": [], "genres": [] },
     { "title": "The Girl Is Mine", "artist": [], "album": [], "genres": [] },
-    { "title": "Thriller", "artist": [], "album": [], "genres": [] },
+    {
+        "title": "Thriller",
+        "artist": ["65b29832fa8c5e54948c14e4"],
+        "album": ["65b29daf4ec2cf18846a833d"],
+        "genres": ["65b29582c4a023bb53f257ef"]
+    },
     { "title": "Hells Bells", "artist": [], "album": [], "genres": [] },
     { "title": "Shoot to Thrill", "artist": [], "album": [], "genres": [] },
     { "title": "Back in Black", "artist": [], "album": [], "genres": [] },
-    { "title": "You Shook Me All Night Long", "artist": [], "album": [], "genres": [] },
+    {
+        "title": "You Shook Me All Night Long",
+        "artist": [],
+        "album": [],
+        "genres": []
+    },
     { "title": "Speak to Me", "artist": [], "album": [], "genres": [] },
     { "title": "Breathe", "artist": [], "album": [], "genres": [] },
     { "title": "On the Run", "artist": [], "album": [], "genres": [] },
     { "title": "Time", "artist": [], "album": [], "genres": [] },
-    { "title": "The Great Gig in the Sky", "artist": [], "album": [], "genres": [] },
+    {
+        "title": "The Great Gig in the Sky",
+        "artist": [],
+        "album": [],
+        "genres": []
+    },
     { "title": "Come Together", "artist": [], "album": [], "genres": [] },
     { "title": "Something", "artist": [], "album": [], "genres": [] },
     { "title": "Oh! Darling", "artist": [], "album": [], "genres": [] },
@@ -21,10 +41,20 @@
     { "title": "Dreams", "artist": [], "album": [], "genres": [] },
     { "title": "The Chain", "artist": [], "album": [], "genres": [] },
     { "title": "Rehab", "artist": [], "album": [], "genres": [] },
-    { "title": "You Know I'm No Good", "artist": [], "album": [], "genres": [] },
+    {
+        "title": "You Know I'm No Good",
+        "artist": [],
+        "album": [],
+        "genres": []
+    },
     { "title": "Back to Black", "artist": [], "album": [], "genres": [] },
     { "title": "Valerie", "artist": [], "album": [], "genres": [] },
-    { "title": "Another Brick in the Wall (Part 2)", "artist": [], "album": [], "genres": [] },
+    {
+        "title": "Another Brick in the Wall (Part 2)",
+        "artist": [],
+        "album": [],
+        "genres": []
+    },
     { "title": "Comfortably Numb", "artist": [], "album": [], "genres": [] },
     { "title": "Hey You", "artist": [], "album": [], "genres": [] },
     { "title": "Mother", "artist": [], "album": [], "genres": [] },
@@ -33,12 +63,27 @@
     { "title": "Stairway to Heaven", "artist": [], "album": [], "genres": [] },
     { "title": "Misty Mountain Hop", "artist": [], "album": [], "genres": [] },
     { "title": "Bohemian Rhapsody", "artist": [], "album": [], "genres": [] },
-    { "title": "You're My Best Friend", "artist": [], "album": [], "genres": [] },
+    {
+        "title": "You're My Best Friend",
+        "artist": [],
+        "album": [],
+        "genres": []
+    },
     { "title": "Love of My Life", "artist": [], "album": [], "genres": [] },
     { "title": "Somebody to Love", "artist": [], "album": [], "genres": [] },
-    { "title": "Where the Streets Have No Name", "artist": [], "album": [], "genres": [] },
+    {
+        "title": "Where the Streets Have No Name",
+        "artist": [],
+        "album": [],
+        "genres": []
+    },
     { "title": "With or Without You", "artist": [], "album": [], "genres": [] },
-    { "title": "I Still Haven't Found What I'm Looking For", "artist": [], "album": [], "genres": [] },
+    {
+        "title": "I Still Haven't Found What I'm Looking For",
+        "artist": [],
+        "album": [],
+        "genres": []
+    },
     { "title": "Bullet the Blue Sky", "artist": [], "album": [], "genres": [] },
     { "title": "So What", "artist": [], "album": [], "genres": [] },
     { "title": "Freddie Freeloader", "artist": [], "album": [], "genres": [] },
@@ -47,25 +92,60 @@
     { "title": "The Suburbs", "artist": [], "album": [], "genres": [] },
     { "title": "Ready to Start", "artist": [], "album": [], "genres": [] },
     { "title": "Modern Man", "artist": [], "album": [], "genres": [] },
-    { "title": "Sprawl II (Mountains Beyond Mountains)", "artist": [], "album": [], "genres": [] },
+    {
+        "title": "Sprawl II (Mountains Beyond Mountains)",
+        "artist": [],
+        "album": [],
+        "genres": []
+    },
     { "title": "One", "artist": [], "album": [], "genres": [] },
     { "title": "Mysterious Ways", "artist": [], "album": [], "genres": [] },
     { "title": "The Fly", "artist": [], "album": [], "genres": [] },
-    { "title": "Even Better Than the Real Thing", "artist": [], "album": [], "genres": [] },
+    {
+        "title": "Even Better Than the Real Thing",
+        "artist": [],
+        "album": [],
+        "genres": []
+    },
     { "title": "Bad", "artist": [], "album": [], "genres": [] },
-    { "title": "The Way You Make Me Feel", "artist": [], "album": [], "genres": [] },
+    {
+        "title": "The Way You Make Me Feel",
+        "artist": [],
+        "album": [],
+        "genres": []
+    },
     { "title": "Man in the Mirror", "artist": [], "album": [], "genres": [] },
     { "title": "Smooth Criminal", "artist": [], "album": [], "genres": [] },
     { "title": "Rolling in the Deep", "artist": [], "album": [], "genres": [] },
     { "title": "Someone Like You", "artist": [], "album": [], "genres": [] },
-    { "title": "Set Fire to the Rain", "artist": [], "album": [], "genres": [] },
-    { "title": "Adventure of a Lifetime", "artist": [], "album": [], "genres": [] },
-    { "title": "Hymn for the Weekend", "artist": [], "album": [], "genres": [] },
+    {
+        "title": "Set Fire to the Rain",
+        "artist": [],
+        "album": [],
+        "genres": []
+    },
+    {
+        "title": "Adventure of a Lifetime",
+        "artist": [],
+        "album": [],
+        "genres": []
+    },
+    {
+        "title": "Hymn for the Weekend",
+        "artist": [],
+        "album": [],
+        "genres": []
+    },
     { "title": "Up&Up", "artist": [], "album": [], "genres": [] },
     { "title": "Hotline Bling", "artist": [], "album": [], "genres": [] },
     { "title": "One Dance", "artist": [], "album": [], "genres": [] },
     { "title": "Controlla", "artist": [], "album": [], "genres": [] },
-    { "title": "No Tears Left to Cry", "artist": [], "album": [], "genres": [] },
+    {
+        "title": "No Tears Left to Cry",
+        "artist": [],
+        "album": [],
+        "genres": []
+    },
     { "title": "God Is a Woman", "artist": [], "album": [], "genres": [] },
     { "title": "Breathin", "artist": [], "album": [], "genres": [] },
     { "title": "Believer", "artist": [], "album": [], "genres": [] },
@@ -84,25 +164,3 @@
     { "title": "Stan", "artist": [], "album": [], "genres": [] },
     { "title": "The Way I Am", "artist": [], "album": [], "genres": [] }
 ]
-
-
-
-
-
-
-
-
-
-
-
-Message m3-project
-
-
-
-
-
-
-
-
-
-
