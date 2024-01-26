@@ -23,7 +23,7 @@ const PORT = process.env.PORT || 5005;
 // ℹ️ Connects to the database
 withDB(() => {
    // ℹ️ If connection was successful, start listening for requests
-   app.listen(PORT, () => {
+  app.listen(PORT, () => {
     console.log(`Server listening on http://localhost:${PORT}`);
-});
+  });
 });
