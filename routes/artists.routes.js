@@ -8,9 +8,7 @@ const router = require('express').Router();
 // GET all Artists
 router.get('/', async (req, res, next) => {
     try {
-        const allArtists = await Artist.find()
-            .populate('albums')
-            .populate('genre');
+        const allArtists = await Artist.find().populate('genre');
         res.status(200).json(allArtists);
     } catch (error) {
         console.log(error);

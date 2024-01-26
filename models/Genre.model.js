@@ -1,4 +1,4 @@
-const mongoose = require('mongoose');
+const mongoose = require("mongoose");
 
 const genreSchema = new mongoose.Schema({
   name: {
@@ -9,7 +9,7 @@ const genreSchema = new mongoose.Schema({
   description: {
     type: String,
   },
-  
+  /* 
   artists: [
     {
       type: mongoose.Schema.Types.ObjectId,
@@ -27,9 +27,9 @@ const genreSchema = new mongoose.Schema({
       type: mongoose.Schema.Types.ObjectId,
       ref: 'Song',
     },
-  ],
+  ],*/
 });
 
-const Genre = mongoose.model('Genre', genreSchema);
+const Genre = mongoose.model("Genre", genreSchema);
 
 module.exports = Genre;

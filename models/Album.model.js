@@ -19,12 +19,7 @@ const albumSchema = new mongoose.Schema({
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Genre',
     },
-    tracks: [
-        {
-            type: mongoose.Schema.Types.ObjectId,
-            ref: 'Song',
-        },
-    ],
+
     coverImageUrl: {
         type: String,
     },

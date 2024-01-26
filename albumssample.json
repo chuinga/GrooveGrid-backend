@@ -1,9 +1,9 @@
 [
     {
         "title": "Thriller",
-        "artist": ["65b244485279b07e4df59552"],
+        "artist": ["65b29832fa8c5e54948c14e4"],
         "releaseDate": "1982-11-30",
-        "genre": "Pop",
+        "genre": ["65b29582c4a023bb53f257ef"],
         "tracks": [
             { "title": "Wanna Be Startin' Somethin'" },
             { "title": "Baby Be Mine" },
@@ -15,9 +15,9 @@
     },
     {
         "title": "Back in Black",
-        "artist": ["65b244485279b07e4df59553"],
+        "artist": ["65b29832fa8c5e54948c14e5"],
         "releaseDate": "1980-07-25",
-        "genre": "Rock",
+        "genre": ["65b29582c4a023bb53f257f0"],
         "tracks": [
             { "title": "Hells Bells" },
             { "title": "Shoot to Thrill" },
@@ -29,9 +29,9 @@
     },
     {
         "title": "The Dark Side of the Moon",
-        "artist": ["65b244485279b07e4df59554"],
+        "artist": ["65b29832fa8c5e54948c14e6"],
         "releaseDate": "1973-03-01",
-        "genre": "Progressive Rock",
+        "genre": ["65b29582c4a023bb53f257f0"],
         "tracks": [
             { "title": "Speak to Me" },
             { "title": "Breathe" },
@@ -44,9 +44,9 @@
     },
     {
         "title": "Abbey Road",
-        "artist": ["65b244485279b07e4df59555"],
+        "artist": ["65b29832fa8c5e54948c14e7"],
         "releaseDate": "1969-09-26",
-        "genre": "Rock",
+        "genre": ["65b29582c4a023bb53f257f0"],
         "tracks": [
             { "title": "Come Together" },
             { "title": "Something" },
@@ -58,9 +58,9 @@
     },
     {
         "title": "Rumours",
-        "artist": ["65b244485279b07e4df59556"],
+        "artist": ["65b29832fa8c5e54948c14e8"],
         "releaseDate": "1977-02-04",
-        "genre": "Rock",
+        "genre": ["65b29582c4a023bb53f257f0"],
         "tracks": [
             { "title": "Second Hand News" },
             { "title": "Go Your Own Way" },
@@ -72,9 +72,9 @@
     },
     {
         "title": "Back to Black",
-        "artist": ["65b244485279b07e4df59557"],
+        "artist": ["65b29832fa8c5e54948c14e9"],
         "releaseDate": "2006-10-27",
-        "genre": "Soul",
+        "genre": ["65b29582c4a023bb53f257f5"],
         "tracks": [
             { "title": "Rehab" },
             { "title": "You Know I'm No Good" },
@@ -86,9 +86,9 @@
     },
     {
         "title": "The Wall",
-        "artist": ["65b244485279b07e4df59554"],
+        "artist": ["65b29832fa8c5e54948c14e6"],
         "releaseDate": "1979-11-30",
-        "genre": "Progressive Rock",
+        "genre": ["65b29582c4a023bb53f257f0"],
         "tracks": [
             { "title": "Another Brick in the Wall (Part 2)" },
             { "title": "Comfortably Numb" },
@@ -100,9 +100,9 @@
     },
     {
         "title": "Led Zeppelin IV",
-        "artist": ["65b24a785279b07e4df59572"],
+        "artist": ["65b29832fa8c5e54948c14f9"],
         "releaseDate": "1971-11-08",
-        "genre": "Rock",
+        "genre": ["65b29582c4a023bb53f257f0"],
         "tracks": [
             { "title": "Black Dog" },
             { "title": "Rock and Roll" },
@@ -114,9 +114,9 @@
     },
     {
         "title": "A Night at the Opera",
-        "artist": ["65b244485279b07e4df59562"],
+        "artist": ["65b29832fa8c5e54948c14f4"],
         "releaseDate": "1975-11-21",
-        "genre": "Rock",
+        "genre": ["65b29582c4a023bb53f257f0"],
         "tracks": [
             { "title": "Bohemian Rhapsody" },
             { "title": "You're My Best Friend" },
@@ -128,9 +128,9 @@
     },
     {
         "title": "The Joshua Tree",
-        "artist": ["65b244485279b07e4df59563"],
+        "artist": ["65b29832fa8c5e54948c14f5"],
         "releaseDate": "1987-03-09",
-        "genre": "Rock",
+        "genre": ["65b29582c4a023bb53f257f0"],
         "tracks": [
             { "title": "Where the Streets Have No Name" },
             { "title": "With or Without You" },
@@ -142,9 +142,9 @@
     },
     {
         "title": "Kind of Blue",
-        "artist": ["65b244485279b07e4df59564"],
+        "artist": ["65b29832fa8c5e54948c14f6"],
         "releaseDate": "1959-08-17",
-        "genre": "Jazz",
+        "genre": ["65b29582c4a023bb53f257f2"],
         "tracks": [
             { "title": "So What" },
             { "title": "Freddie Freeloader" },
@@ -156,9 +156,9 @@
     },
     {
         "title": "The Suburbs",
-        "artist": ["65b244485279b07e4df59565"],
+        "artist": ["65b29832fa8c5e54948c14f7"],
         "releaseDate": "2010-08-02",
-        "genre": "Indie",
+        "genre": ["65b29582c4a023bb53f257f0"],
         "tracks": [
             { "title": "The Suburbs" },
             { "title": "Ready to Start" },
@@ -170,9 +170,9 @@
     },
     {
         "title": "Achtung Baby",
-        "artist": ["65b244485279b07e4df59563"],
+        "artist": ["65b29832fa8c5e54948c14f5"],
         "releaseDate": "1991-11-18",
-        "genre": "Rock",
+        "genre": ["65b29582c4a023bb53f257f0"],
         "tracks": [
             { "title": "One" },
             { "title": "Mysterious Ways" },
@@ -184,9 +184,9 @@
     },
     {
         "title": "Bad",
-        "artist": ["65b244485279b07e4df59552"],
+        "artist": ["65b29832fa8c5e54948c14e4"],
         "releaseDate": "1987-08-31",
-        "genre": "Pop",
+        "genre": ["65b29582c4a023bb53f257ef"],
         "tracks": [
             { "title": "Bad" },
             { "title": "The Way You Make Me Feel" },
@@ -198,9 +198,9 @@
     },
     {
         "title": "21",
-        "artist": ["65b244485279b07e4df59566"],
+        "artist": ["65b29832fa8c5e54948c14f8"],
         "releaseDate": "2011-01-24",
-        "genre": "Pop",
+        "genre": ["65b29582c4a023bb53f257ef"],
         "tracks": [
             { "title": "Rolling in the Deep" },
             { "title": "Someone Like You" },
@@ -211,9 +211,9 @@
     },
     {
         "title": "A Head Full of Dreams",
-        "artist": ["65b244485279b07e4df59558"],
+        "artist": ["65b29832fa8c5e54948c14ea"],
         "releaseDate": "2015-12-04",
-        "genre": "Rock",
+        "genre": ["65b29582c4a023bb53f257f0"],
         "tracks": [
             { "title": "Adventure of a Lifetime" },
             { "title": "Hymn for the Weekend" },
@@ -224,9 +224,9 @@
     },
     {
         "title": "Views",
-        "artist": ["65b244485279b07e4df59559"],
+        "artist": ["65b29832fa8c5e54948c14eb"],
         "releaseDate": "2016-04-29",
-        "genre": "Hip Hop",
+        "genre": ["65b29582c4a023bb53f257f1"],
         "tracks": [
             { "title": "Hotline Bling" },
             { "title": "One Dance" },
@@ -237,9 +237,9 @@
     },
     {
         "title": "Sweetener",
-        "artist": ["65b244485279b07e4df5955a"],
+        "artist": ["65b29832fa8c5e54948c14ec"],
         "releaseDate": "2018-08-17",
-        "genre": "Pop",
+        "genre": ["65b29582c4a023bb53f257ef"],
         "tracks": [
             { "title": "No Tears Left to Cry" },
             { "title": "God Is a Woman" },
@@ -250,9 +250,9 @@
     },
     {
         "title": "Evolve",
-        "artist": ["65b244485279b07e4df5955b"],
+        "artist": ["65b29832fa8c5e54948c14ed"],
         "releaseDate": "2017-06-23",
-        "genre": "Rock",
+        "genre": ["65b29582c4a023bb53f257f0"],
         "tracks": [
             { "title": "Believer" },
             { "title": "Thunder" },
@@ -263,9 +263,9 @@
     },
     {
         "title": "My Beautiful Dark Twisted Fantasy",
-        "artist": ["65b244485279b07e4df5955c"],
+        "artist": ["65b29832fa8c5e54948c14ee"],
         "releaseDate": "2010-11-22",
-        "genre": "Hip Hop",
+        "genre": ["65b29582c4a023bb53f257f1"],
         "tracks": [
             { "title": "Runaway" },
             { "title": "Power" },
@@ -276,9 +276,9 @@
     },
     {
         "title": "The Fame",
-        "artist": ["65b244485279b07e4df5955d"],
+        "artist": ["65b29832fa8c5e54948c14ef"],
         "releaseDate": "2008-08-19",
-        "genre": "Pop",
+        "genre": ["65b29582c4a023bb53f257ef"],
         "tracks": [
             { "title": "Just Dance" },
             { "title": "Poker Face" },
@@ -289,9 +289,9 @@
     },
     {
         "title": "Hybrid Theory",
-        "artist": ["65b244485279b07e4df5955e"],
+        "artist": ["65b29832fa8c5e54948c14f0"],
         "releaseDate": "2000-10-24",
-        "genre": "Rock",
+        "genre": ["65b29582c4a023bb53f257f0"],
         "tracks": [
             { "title": "In the End" },
             { "title": "Crawling" },
@@ -302,9 +302,9 @@
     },
     {
         "title": "The Marshall Mathers LP",
-        "artist": ["65b244485279b07e4df5955f"],
+        "artist": ["65b29832fa8c5e54948c14f1"],
         "releaseDate": "2000-05-23",
-        "genre": "Hip Hop",
+        "genre": "65b29582c4a023bb53f257f1",
         "tracks": [
             { "title": "The Real Slim Shady" },
             { "title": "Stan" },
@@ -315,9 +315,9 @@
     },
     {
         "title": "Revival",
-        "artist": ["65b244485279b07e4df59560"],
+        "artist": ["65b29832fa8c5e54948c14f2"],
         "releaseDate": "2015-10-09",
-        "genre": "Pop",
+        "genre": ["65b29582c4a023bb53f257ef"],
         "tracks": [
             { "title": "Good for You" },
             { "title": "Same Old Love" },
@@ -328,9 +328,9 @@
     },
     {
         "title": "Californication",
-        "artist": ["65b244485279b07e4df59561"],
+        "artist": ["65b29832fa8c5e54948c14f3"],
         "releaseDate": "1999-06-08",
-        "genre": "Rock",
+        "genre": ["65b29582c4a023bb53f257f0"],
         "tracks": [
             { "title": "Scar Tissue" },
             { "title": "Otherside" },
@@ -338,5 +338,19 @@
         ],
         "coverImageUrl": "rhcp_californication_cover.jpg",
         "description": "Californication is the seventh studio album by Red Hot Chili Peppers."
+    },
+    {
+        "title": "Legend",
+        "artist": "65b29832fa8c5e54948c14fa",
+        "releaseDate": "1984-05-08",
+        "genre": ["65b29582c4a023bb53f257f3"],
+        "tracks": [
+            { "title": "Is This Love" },
+            { "title": "No Woman, No Cry" },
+            { "title": "Could You Be Loved" },
+            { "title": "Three Little Birds" }
+        ],
+        "coverImageUrl": "bob_marley_legend_cover.jpg",
+        "description": "Legend is a compilation album by Bob Marley and the Wailers, released in 1984."
     }
 ]

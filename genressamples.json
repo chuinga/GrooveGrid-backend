@@ -1,241 +1,100 @@
 [
-    {
-        "name": "Pop",
-        "description": "Popular music",
-        "artists": [
-            { "name": "Taylor Swift" },
-            { "name": "Ed Sheeran" },
-            { "name": "Queen" },
-            { "name": "Kendrick Lamar" },
-            { "name": "Beyoncé" },
-            { "name": "Johnny Cash" },
-            { "name": "Calvin Harris" },
-            { "name": "Adele" },
-            { "name": "Coldplay" },
-            { "name": "Drake" }
-        ],
-        "albums": [],
-        "songs": []
-    },
-    {
-        "name": "Rock",
-        "description": "Rock and roll",
-        "artists": [
-            { "name": "Queen" },
-            { "name": "Red Hot Chili Peppers" },
-            { "name": "Foo Fighters" },
-            { "name": "The Rolling Stones" },
-            { "name": "Coldplay" },
-            { "name": "Linkin Park" },
-            { "name": "Adele" },
-            { "name": "Metallica" },
-            { "name": "U2" }
-        ],
-        "albums": [],
-        "songs": []
-    },
-    {
-        "name": "Hip Hop",
-        "description": "Hip hop music",
-        "artists": [
-            { "name": "Kendrick Lamar" },
-            { "name": "Drake" },
-            { "name": "Kanye West" },
-            { "name": "Travis Scott" },
-            { "name": "Eminem" },
-            { "name": "Jay-Z" },
-            { "name": "Cardi B" },
-            { "name": "Nicki Minaj" },
-            { "name": "Future" }
-        ],
-        "albums": [],
-        "songs": []
-    },
-    {
-        "name": "R&B",
-        "description": "Rhythm and Blues",
-        "artists": [
-            { "name": "Beyoncé" },
-            { "name": "Alicia Keys" },
-            { "name": "Usher" }
-        ],
-        "albums": [],
-        "songs": []
-    },
-    {
-        "name": "Country",
-        "description": "Country music",
-        "artists": [
-            { "name": "Johnny Cash" },
-            { "name": "Shania Twain" },
-            { "name": "Blake Shelton" }
-        ],
-        "albums": [],
-        "songs": []
-    },
-    {
-        "name": "Electronic",
-        "description": "Electronic dance music",
-        "artists": [
-            { "name": "Calvin Harris" },
-            { "name": "Avicii" },
-            { "name": "The Chainsmokers" }
-        ],
-        "albums": [],
-        "songs": []
-    },
-    {
-        "name": "Jazz",
-        "description": "Improvised music",
-        "artists": [
-            { "name": "Miles Davis" },
-            { "name": "John Coltrane" },
-            { "name": "Ella Fitzgerald" }
-        ],
-        "albums": [],
-        "songs": []
-    },
-    {
-        "name": "Blues",
-        "description": "Blues music",
-        "artists": [
-            { "name": "B.B. King" },
-            { "name": "Eric Clapton" },
-            { "name": "Stevie Ray Vaughan" }
-        ],
-        "albums": [],
-        "songs": []
-    },
-    {
-        "name": "Reggae",
-        "description": "Jamaican music genre",
-        "artists": [
-            { "name": "Bob Marley" },
-            { "name": "Damian Marley" },
-            { "name": "Toots and the Maytals" }
-        ],
-        "albums": [],
-        "songs": []
-    },
-    {
-        "name": "Classical",
-        "description": "Traditional music genre",
-        "artists": [
-            { "name": "Ludwig van Beethoven" },
-            { "name": "Wolfgang Amadeus Mozart" },
-            { "name": "Johann Sebastian Bach" }
-        ],
-        "albums": [],
-        "songs": []
-    },
-    {
-        "name": "Funk",
-        "description": "Funky music",
-        "artists": [
-            { "name": "James Brown" },
-            { "name": "Parliament-Funkadelic" },
-            { "name": "Stevie Wonder" }
-        ],
-        "albums": [],
-        "songs": []
-    },
-    {
-        "name": "Soul",
-        "description": "Soulful music",
-        "artists": [
-            { "name": "Aretha Franklin" },
-            { "name": "Ray Charles" },
-            { "name": "Otis Redding" }
-        ],
-        "albums": [],
-        "songs": []
-    },
-    {
-        "name": "Metal",
-        "description": "Heavy metal music",
-        "artists": [
-            { "name": "Metallica" },
-            { "name": "Black Sabbath" },
-            { "name": "Iron Maiden" }
-        ],
-        "albums": [],
-        "songs": []
-    },
-    {
-        "name": "Indie",
-        "description": "Independent music",
-        "artists": [
-            { "name": "Arctic Monkeys" },
-            { "name": "The Strokes" },
-            { "name": "Vampire Weekend" }
-        ],
-        "albums": [],
-        "songs": []
-    },
-    {
-        "name": "Alternative",
-        "description": "Alternative music",
-        "artists": [
-            { "name": "Radiohead" },
-            { "name": "The Killers" },
-            { "name": "Arcade Fire" }
-        ],
-        "albums": [],
-        "songs": []
-    },
-    {
-        "name": "Punk",
-        "description": "Punk rock",
-        "artists": [
-            { "name": "Ramones" },
-            { "name": "Sex Pistols" },
-            { "name": "The Clash" }
-        ],
-        "albums": [],
-        "songs": []
-    },
-    {
-        "name": "World",
-        "description": "World music",
-        "artists": [
-            { "name": "Fela Kuti" },
-            { "name": "Ravi Shankar" },
-            { "name": "Buena Vista Social Club" }
-        ],
-        "albums": [],
-        "songs": []
-    },
-    {
-        "name": "Pop Rock",
-        "description": "Pop-infused rock",
-        "artists": [
-            { "name": "Coldplay" },
-            { "name": "Maroon 5" },
-            { "name": "OneRepublic" }
-        ],
-        "albums": [],
-        "songs": []
-    },
-    {
-        "name": "Acoustic",
-        "description": "Unplugged music",
-        "artists": [
-            { "name": "Ed Sheeran" },
-            { "name": "Jason Mraz" },
-            { "name": "Norah Jones" }
-        ],
-        "albums": [],
-        "songs": []
-    },
-    {
-        "name": "Dance",
-        "description": "Danceable music",
-        "artists": [
-            { "name": "Calvin Harris" },
-            { "name": "David Guetta" },
-            { "name": "Marshmello" }
-        ],
-        "albums": [],
-        "songs": []
-    }
+  {
+    "name": "Pop",
+    "description": "Popular music",
+    "artists": [
+      { "name": "65b269635279b07e4df595b0" },
+      { "name": "65b269635279b07e4df595a8" },
+      { "name": "65b269635279b07e4df595ab" },
+      { "name": "65b269635279b07e4df595ae" },
+      { "name": "65b269635279b07e4df595b4" }
+    ],
+    "albums": [
+      "65b23f895279b07e4df59548",
+      "65b23f895279b07e4df5954b",
+      "65b2694a5279b07e4df59587",
+      "65b2694a5279b07e4df59594",
+      "65b2694a5279b07e4df59595",
+      "65b2694a5279b07e4df59598",
+      "65b2694a5279b07e4df5959b",
+      "65b2694a5279b07e4df5959e"
+    ],
+    "songs": []
+  },
+  {
+    "name": "Rock",
+    "description": "Rock and roll",
+    "artists": [
+      { "name": "65b269635279b07e4df595a1" },
+      { "name": "65b269635279b07e4df595a3" },
+      { "name": "65b269635279b07e4df595a4" },
+      { "name": "65b269635279b07e4df595a6" },
+      { "name": "65b269635279b07e4df595a9" },
+      { "name": "65b269635279b07e4df595ac" },
+      { "name": "65b269635279b07e4df595af" },
+      { "name": "65b269635279b07e4df595b0" },
+      { "name": "65b269635279b07e4df595b1" },
+      { "name": "65b269635279b07e4df595b5" }
+    ],
+    "albums": [
+      "65b23f895279b07e4df59549",
+      "65b23f895279b07e4df5954c",
+      "65b2694a5279b07e4df59588",
+      "65b2694a5279b07e4df5958a",
+      "65b2694a5279b07e4df5958b",
+      "65b2694a5279b07e4df5958e",
+      "65b2694a5279b07e4df5958f",
+      "65b2694a5279b07e4df59590",
+      "65b2694a5279b07e4df59593",
+      "65b2694a5279b07e4df59596",
+      "65b2694a5279b07e4df59599",
+      "65b2694a5279b07e4df5959c",
+      "65b2694a5279b07e4df5959f"
+    ],
+    "songs": []
+  },
+  {
+    "name": "Hip Hop",
+    "description": "Hip hop music",
+    "artists": [
+      { "name": "65b269635279b07e4df595a7" },
+      { "name": "65b269635279b07e4df595aa" },
+      { "name": "65b269635279b07e4df595ad" }
+    ],
+    "albums": [
+      "65b23f895279b07e4df5954a",
+      "65b2694a5279b07e4df59597",
+      "65b2694a5279b07e4df5959a",
+      "65b2694a5279b07e4df5959d"
+    ],
+    "songs": []
+  },
+  {
+    "name": "Jazz",
+    "description": "Improvised music",
+    "artists": [{ "name": "65b269635279b07e4df595b2" }],
+    "albums": ["65b2694a5279b07e4df59591"],
+    "songs": []
+  },
+  {
+    "name": "Reggae",
+    "description": "Jamaican music genre",
+    "artists": [{ "name": "65b279ae5279b07e4df595c5" }],
+    "albums": ["65b279f55279b07e4df595c7"],
+    "songs": []
+  },
+  {
+    "name": "Indie",
+    "description": "Independent music",
+    "artists": [{ "name": "65b269635279b07e4df595b3" }],
+    "albums": ["65b2694a5279b07e4df59592"],
+    "songs": []
+  },
+  {
+    "name": "Soul",
+    "description": "Soul music genre",
+    "artists": [{ "name": "65b269635279b07e4df595a5" }],
+    "albums": ["65b2694a5279b07e4df5958c"],
+    "songs": []
+  }
 ]

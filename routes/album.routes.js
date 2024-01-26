@@ -9,8 +9,7 @@ router.get('/', async (req, res, next) => {
     try {
         const allAlbums = await Album.find()
             .populate('artist')
-            .populate('genre')
-            .populate('tracks');
+            .populate('genre');
         res.status(200).json(allAlbums);
     } catch (error) {
         console.error(error);
