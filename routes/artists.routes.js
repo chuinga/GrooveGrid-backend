@@ -13,6 +13,7 @@ router.get('/', async (req, res, next) => {
             .populate('genre');
         res.status(200).json(allArtists);
     } catch (error) {
+        console.log(error);
         next(error);
     }
 });
