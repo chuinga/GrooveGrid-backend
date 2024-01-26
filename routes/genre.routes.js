@@ -9,9 +9,6 @@ const router = require('express').Router();
 router.get('/', async (req, res, next) => {
     try {
         const allGenres = await Genre.find()
-            .populate('artists')
-            .populate('albums')
-            .populate('songs');
         res.status(200).json(allGenres);
     } catch (error) {
         console.log(error);
@@ -24,9 +21,6 @@ router.get('/:genreId', async (req, res, next) => {
     const { genreId } = req.params;
     try {
         const oneGenre = await Genre.findById(genreId)
-            .populate('artists')
-            .populate('albums')
-            .populate('songs');
         res.status(200).json(oneGenre);
     } catch (error) {
         console.log(error);
