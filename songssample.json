@@ -1,26 +1,566 @@
 [
-    { 
-        "title": "Wanna Be Startin' Somethin'",
-        "artist": [],
-        "album": [],
-        "genres": [] 
-    },
-    { 
-        "title": "Baby Be Mine",
-        "artist": [],
-        "album": [],
-        "genres": [] 
-    },
-    {
-        "title": "The Girl Is Mine",
-        "artist": [],
-        "album": [],
-        "genres": [] 
-    },
-    { 
-        "title": "Thriller",
-        "artist": [],
-        "album": [],
-        "genres": [] 
-    }
+  {
+    "title": "Wanna Be Startin' Somethin'",
+    "artist": ["65b29832fa8c5e54948c14e4"],
+    "album": ["65b29daf4ec2cf18846a833d"],
+    "genres": ["65b29582c4a023bb53f257ef"]
+  },
+  {
+    "title": "Baby Be Mine",
+    "artist": ["65b29832fa8c5e54948c14e4"],
+    "album": ["65b29daf4ec2cf18846a833d"],
+    "genres": ["65b29582c4a023bb53f257ef"]
+  },
+  {
+    "title": "The Girl Is Mine",
+    "artist": ["65b29832fa8c5e54948c14e4"],
+    "album": ["65b29daf4ec2cf18846a833d"],
+    "genres": ["65b29582c4a023bb53f257ef"]
+  },
+  {
+    "title": "Thriller",
+    "artist": ["65b29832fa8c5e54948c14e4"],
+    "album": ["65b29daf4ec2cf18846a833d"],
+    "genres": ["65b29582c4a023bb53f257ef"]
+  },
+  {
+    "title": "Hells Bells",
+    "artist": ["65b29832fa8c5e54948c14e5"],
+    "album": ["65b29daf4ec2cf18846a833e"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Shoot to Thrill",
+    "artist": ["65b29832fa8c5e54948c14e5"],
+    "album": ["65b29daf4ec2cf18846a833e"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Back in Black",
+    "artist": ["65b29832fa8c5e54948c14e5"],
+    "album": ["65b29daf4ec2cf18846a833e"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "You Shook Me All Night Long",
+    "artist": ["65b29832fa8c5e54948c14e5"],
+    "album": ["65b29daf4ec2cf18846a833e"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Speak to Me",
+    "artist": ["65b29832fa8c5e54948c14e6"],
+    "album": ["65b29daf4ec2cf18846a833f"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Breathe",
+    "artist": ["65b29832fa8c5e54948c14e6"],
+    "album": ["65b29daf4ec2cf18846a833f"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "On the Run",
+    "artist": ["65b29832fa8c5e54948c14e6"],
+    "album": ["65b29daf4ec2cf18846a833f"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Time",
+    "artist": ["65b29832fa8c5e54948c14e6"],
+    "album": ["65b29daf4ec2cf18846a833f"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "The Great Gig in the Sky",
+    "artist": ["65b29832fa8c5e54948c14e6"],
+    "album": ["65b29daf4ec2cf18846a833f"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Come Together",
+    "artist": ["65b29832fa8c5e54948c14e7"],
+    "album": ["65b29daf4ec2cf18846a8340"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Something",
+    "artist": ["65b29832fa8c5e54948c14e7"],
+    "album": ["65b29daf4ec2cf18846a8340"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Oh! Darling",
+    "artist": ["65b29832fa8c5e54948c14e7"],
+    "album": ["65b29daf4ec2cf18846a8340"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Here Comes the Sun",
+    "artist": ["65b29832fa8c5e54948c14e7"],
+    "album": ["65b29daf4ec2cf18846a8340"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Second Hand News",
+    "artist": ["65b29832fa8c5e54948c14e8"],
+    "album": ["65b29daf4ec2cf18846a8341"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Go Your Own Way",
+    "artist": ["65b29832fa8c5e54948c14e8"],
+    "album": ["65b29daf4ec2cf18846a8341"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Dreams",
+    "artist": ["65b29832fa8c5e54948c14e8"],
+    "album": ["65b29daf4ec2cf18846a8341"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "The Chain",
+    "artist": ["65b29832fa8c5e54948c14e8"],
+    "album": ["65b29daf4ec2cf18846a8341"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Rehab",
+    "artist": ["65b29832fa8c5e54948c14e9"],
+    "album": ["65b29daf4ec2cf18846a8342"],
+    "genres": ["65b29582c4a023bb53f257f5"]
+  },
+  {
+    "title": "You Know I'm No Good",
+    "artist": ["65b29832fa8c5e54948c14e9"],
+    "album": ["65b29daf4ec2cf18846a8342"],
+    "genres": ["65b29582c4a023bb53f257f5"]
+  },
+  {
+    "title": "Back to Black",
+    "artist": ["65b29832fa8c5e54948c14e9"],
+    "album": ["65b29daf4ec2cf18846a8342"],
+    "genres": ["65b29582c4a023bb53f257f5"]
+  },
+  {
+    "title": "Valerie",
+    "artist": ["65b29832fa8c5e54948c14e9"],
+    "album": ["65b29daf4ec2cf18846a8342"],
+    "genres": ["65b29582c4a023bb53f257f5"]
+  },
+  {
+    "title": "Another Brick in the Wall (Part 2)",
+    "artist": ["65b29832fa8c5e54948c14e6"],
+    "album": ["65b29daf4ec2cf18846a8343"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Comfortably Numb",
+    "artist": ["65b29832fa8c5e54948c14e6"],
+    "album": ["65b29daf4ec2cf18846a8343"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Hey You",
+    "artist": ["65b29832fa8c5e54948c14e6"],
+    "album": ["65b29daf4ec2cf18846a8343"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Mother",
+    "artist": ["65b29832fa8c5e54948c14e6"],
+    "album": ["65b29daf4ec2cf18846a8343"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Black Dog",
+    "artist": ["65b29832fa8c5e54948c14f9"],
+    "album": ["65b29daf4ec2cf18846a8344"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Rock and Roll",
+    "artist": ["65b29832fa8c5e54948c14f9"],
+    "album": ["65b29daf4ec2cf18846a8344"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Stairway to Heaven",
+    "artist": ["65b29832fa8c5e54948c14f9"],
+    "album": ["65b29daf4ec2cf18846a8344"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Misty Mountain Hop",
+    "artist": ["65b29832fa8c5e54948c14f9"],
+    "album": ["65b29daf4ec2cf18846a8344"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Bohemian Rhapsody",
+    "artist": ["65b29832fa8c5e54948c14f4"],
+    "album": ["65b29daf4ec2cf18846a8345"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "You're My Best Friend",
+    "artist": ["65b29832fa8c5e54948c14f4"],
+    "album": ["65b29daf4ec2cf18846a8345"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Love of My Life",
+    "artist": ["65b29832fa8c5e54948c14f4"],
+    "album": ["65b29daf4ec2cf18846a8345"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Somebody to Love",
+    "artist": ["65b29832fa8c5e54948c14f4"],
+    "album": ["65b29daf4ec2cf18846a8345"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Where the Streets Have No Name",
+    "artist": ["65b29832fa8c5e54948c14f5"],
+    "album": ["65b29daf4ec2cf18846a8346"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "With or Without You",
+    "artist": ["65b29832fa8c5e54948c14f5"],
+    "album": ["65b29daf4ec2cf18846a8346"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "I Still Haven't Found What I'm Looking For",
+    "artist": ["65b29832fa8c5e54948c14f5"],
+    "album": ["65b29daf4ec2cf18846a8346"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Bullet the Blue Sky",
+    "artist": ["65b29832fa8c5e54948c14f5"],
+    "album": ["65b29daf4ec2cf18846a8346"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "So What",
+    "artist": ["65b29832fa8c5e54948c14f6"],
+    "album": ["65b29daf4ec2cf18846a8347"],
+    "genres": ["65b29582c4a023bb53f257f2"]
+  },
+  {
+    "title": "Freddie Freeloader",
+    "artist": ["65b29832fa8c5e54948c14f6"],
+    "album": ["65b29daf4ec2cf18846a8347"],
+    "genres": ["65b29582c4a023bb53f257f2"]
+  },
+  {
+    "title": "Blue in Green",
+    "artist": ["65b29832fa8c5e54948c14f6"],
+    "album": ["65b29daf4ec2cf18846a8347"],
+    "genres": ["65b29582c4a023bb53f257f2"]
+  },
+  {
+    "title": "All Blues",
+    "artist": ["65b29832fa8c5e54948c14f6"],
+    "album": ["65b29daf4ec2cf18846a8347"],
+    "genres": ["65b29582c4a023bb53f257f2"]
+  },
+  {
+    "title": "The Suburbs",
+    "artist": ["65b29832fa8c5e54948c14f7"],
+    "album": ["65b29daf4ec2cf18846a8348"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Ready to Start",
+    "artist": ["65b29832fa8c5e54948c14f7"],
+    "album": ["65b29daf4ec2cf18846a8348"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Modern Man",
+    "artist": ["65b29832fa8c5e54948c14f7"],
+    "album": ["65b29daf4ec2cf18846a8348"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Sprawl II (Mountains Beyond Mountains)",
+    "artist": ["65b29832fa8c5e54948c14f7"],
+    "album": ["65b29daf4ec2cf18846a8348"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "One",
+    "artist": ["65b29832fa8c5e54948c14f5"],
+    "album": ["65b29daf4ec2cf18846a8349"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Mysterious Ways",
+    "artist": ["65b29832fa8c5e54948c14f5"],
+    "album": ["65b29daf4ec2cf18846a8349"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "The Fly",
+    "artist": ["65b29832fa8c5e54948c14f5"],
+    "album": ["65b29daf4ec2cf18846a8349"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Even Better Than the Real Thing",
+    "artist": ["65b29832fa8c5e54948c14f5"],
+    "album": ["65b29daf4ec2cf18846a8349"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Bad",
+    "artist": ["65b29832fa8c5e54948c14e4"],
+    "album": ["65b29daf4ec2cf18846a834a"],
+    "genres": ["65b29582c4a023bb53f257ef"]
+  },
+  {
+    "title": "The Way You Make Me Feel",
+    "artist": ["65b29832fa8c5e54948c14e4"],
+    "album": ["65b29daf4ec2cf18846a834a"],
+    "genres": ["65b29582c4a023bb53f257ef"]
+  },
+  {
+    "title": "Man in the Mirror",
+    "artist": ["65b29832fa8c5e54948c14e4"],
+    "album": ["65b29daf4ec2cf18846a834a"],
+    "genres": ["65b29582c4a023bb53f257ef"]
+  },
+  {
+    "title": "Smooth Criminal",
+    "artist": ["65b29832fa8c5e54948c14e4"],
+    "album": ["65b29daf4ec2cf18846a834a"],
+    "genres": ["65b29582c4a023bb53f257ef"]
+  },
+  {
+    "title": "Rolling in the Deep",
+    "artist": ["65b29832fa8c5e54948c14f8"],
+    "album": ["65b29daf4ec2cf18846a834b"],
+    "genres": ["65b29582c4a023bb53f257ef"]
+  },
+  {
+    "title": "Someone Like You",
+    "artist": ["65b29832fa8c5e54948c14f8"],
+    "album": ["65b29daf4ec2cf18846a834b"],
+    "genres": ["65b29582c4a023bb53f257ef"]
+  },
+  {
+    "title": "Set Fire to the Rain",
+    "artist": ["65b29832fa8c5e54948c14f8"],
+    "album": ["65b29daf4ec2cf18846a834b"],
+    "genres": ["65b29582c4a023bb53f257ef"]
+  },
+  {
+    "title": "Adventure of a Lifetime",
+    "artist": ["65b29832fa8c5e54948c14ea"],
+    "album": ["65b29daf4ec2cf18846a834c"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Hymn for the Weekend",
+    "artist": ["65b29832fa8c5e54948c14ea"],
+    "album": ["65b29daf4ec2cf18846a834c"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Up&Up",
+    "artist": ["65b29832fa8c5e54948c14ea"],
+    "album": ["65b29daf4ec2cf18846a834c"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Hotline Bling",
+    "artist": ["65b29832fa8c5e54948c14eb"],
+    "album": ["65b29daf4ec2cf18846a834d"],
+    "genres": ["65b29582c4a023bb53f257f1"]
+  },
+  {
+    "title": "One Dance",
+    "artist": ["65b29832fa8c5e54948c14eb"],
+    "album": ["65b29daf4ec2cf18846a834d"],
+    "genres": ["65b29582c4a023bb53f257f1"]
+  },
+  {
+    "title": "Controlla",
+    "artist": ["65b29832fa8c5e54948c14eb"],
+    "album": ["65b29daf4ec2cf18846a834d"],
+    "genres": ["65b29582c4a023bb53f257f1"]
+  },
+  {
+    "title": "No Tears Left to Cry",
+    "artist": ["65b29832fa8c5e54948c14ec"],
+    "album": ["65b29daf4ec2cf18846a834e"],
+    "genres": ["65b29582c4a023bb53f257ef"]
+  },
+  {
+    "title": "God Is a Woman",
+    "artist": ["65b29832fa8c5e54948c14ec"],
+    "album": ["65b29daf4ec2cf18846a834e"],
+    "genres": ["65b29582c4a023bb53f257ef"]
+  },
+  {
+    "title": "Breathin",
+    "artist": ["65b29832fa8c5e54948c14ec"],
+    "album": ["65b29daf4ec2cf18846a834e"],
+    "genres": ["65b29582c4a023bb53f257ef"]
+  },
+  {
+    "title": "Believer",
+    "artist": ["65b29832fa8c5e54948c14ed"],
+    "album": ["65b29daf4ec2cf18846a834f"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Thunder",
+    "artist": ["65b29832fa8c5e54948c14ed"],
+    "album": ["65b29daf4ec2cf18846a834f"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Whatever It Takes",
+    "artist": ["65b29832fa8c5e54948c14ed"],
+    "album": ["65b29daf4ec2cf18846a834f"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Runaway",
+    "artist": ["65b29832fa8c5e54948c14ee"],
+    "album": ["65b29daf4ec2cf18846a8350"],
+    "genres": ["65b29582c4a023bb53f257f1"]
+  },
+  {
+    "title": "Power",
+    "artist": ["65b29832fa8c5e54948c14ee"],
+    "album": ["65b29daf4ec2cf18846a8350"],
+    "genres": ["65b29582c4a023bb53f257f1"]
+  },
+  {
+    "title": "Monster",
+    "artist": ["65b29832fa8c5e54948c14ee"],
+    "album": ["65b29daf4ec2cf18846a8350"],
+    "genres": ["65b29582c4a023bb53f257f1"]
+  },
+  {
+    "title": "Just Dance",
+    "artist": ["65b29832fa8c5e54948c14ef"],
+    "album": ["65b29daf4ec2cf18846a8351"],
+    "genres": ["65b29582c4a023bb53f257ef"]
+  },
+  {
+    "title": "Poker Face",
+    "artist": ["65b29832fa8c5e54948c14ef"],
+    "album": ["65b29daf4ec2cf18846a8351"],
+    "genres": ["65b29582c4a023bb53f257ef"]
+  },
+  {
+    "title": "Bad Romance",
+    "artist": ["65b29832fa8c5e54948c14ef"],
+    "album": ["65b29daf4ec2cf18846a8351"],
+    "genres": ["65b29582c4a023bb53f257ef"]
+  },
+  {
+    "title": "In the End",
+    "artist": ["65b29832fa8c5e54948c14f0"],
+    "album": ["65b29daf4ec2cf18846a8352"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Crawling",
+    "artist": ["65b29832fa8c5e54948c14f0"],
+    "album": ["65b29daf4ec2cf18846a8352"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "One Step Closer",
+    "artist": ["65b29832fa8c5e54948c14f0"],
+    "album": ["65b29daf4ec2cf18846a8352"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "The Real Slim Shady",
+    "artist": ["65b29832fa8c5e54948c14f1"],
+    "album": ["65b29daf4ec2cf18846a8353"],
+    "genres": ["65b29582c4a023bb53f257f1"]
+  },
+  {
+    "title": "Stan",
+    "artist": ["65b29832fa8c5e54948c14f1"],
+    "album": ["65b29daf4ec2cf18846a8353"],
+    "genres": ["65b29582c4a023bb53f257f1"]
+  },
+  {
+    "title": "The Way I Am",
+    "artist": ["65b29832fa8c5e54948c14f1"],
+    "album": ["65b29daf4ec2cf18846a8353"],
+    "genres": ["65b29582c4a023bb53f257f1"]
+  },
+  {
+    "title": "Good for You",
+    "artist": ["65b29832fa8c5e54948c14f2"],
+    "album": ["65b29daf4ec2cf18846a8354"],
+    "genres": ["65b29582c4a023bb53f257ef"]
+  },
+  {
+    "title": "Same Old Love",
+    "artist": ["65b29832fa8c5e54948c14f2"],
+    "album": ["65b29daf4ec2cf18846a8354"],
+    "genres": ["65b29582c4a023bb53f257ef"]
+  },
+  {
+    "title": "Hands to Myself",
+    "artist": ["65b29832fa8c5e54948c14f2"],
+    "album": ["65b29daf4ec2cf18846a8354"],
+    "genres": ["65b29582c4a023bb53f257ef"]
+  },
+  {
+    "title": "Scar Tissue",
+    "artist": ["65b29832fa8c5e54948c14f3"],
+    "album": ["65b29daf4ec2cf18846a8355"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Otherside",
+    "artist": ["65b29832fa8c5e54948c14f3"],
+    "album": ["65b29daf4ec2cf18846a8355"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Californication",
+    "artist": ["65b29832fa8c5e54948c14f3"],
+    "album": ["65b29daf4ec2cf18846a8355"],
+    "genres": ["65b29582c4a023bb53f257f0"]
+  },
+  {
+    "title": "Is This Love",
+    "artist": ["65b29832fa8c5e54948c14fa"],
+    "album": ["65b29daf4ec2cf18846a8356"],
+    "genres": ["65b29582c4a023bb53f257f3"]
+  },
+  {
+    "title": "No Woman, No Cry",
+    "artist": ["65b29832fa8c5e54948c14fa"],
+    "album": ["65b29daf4ec2cf18846a8356"],
+    "genres": ["65b29582c4a023bb53f257f3"]
+  },
+  {
+    "title": "Could You Be Loved",
+    "artist": ["65b29832fa8c5e54948c14fa"],
+    "album": ["65b29daf4ec2cf18846a8356"],
+    "genres": ["65b29582c4a023bb53f257f3"]
+  },
+  {
+    "title": "Three Little Birds",
+    "artist": ["65b29832fa8c5e54948c14fa"],
+    "album": ["65b29daf4ec2cf18846a8356"],
+    "genres": ["65b29582c4a023bb53f257f3"]
+  }
 ]
