@@ -23,8 +23,8 @@ router.get('/:albumId', async (req, res, next) => {
     try {
         const oneAlbum = await Album.findById(albumId)
             .populate('artist')
-            .populate('genre')
-            .populate('tracks');
+            .populate('genre');
+
         res.status(200).json(oneAlbum);
     } catch (error) {
         console.error(error);

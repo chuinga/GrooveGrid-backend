@@ -1,35 +1,16 @@
-const mongoose = require("mongoose");
+const mongoose = require('mongoose');
 
 const genreSchema = new mongoose.Schema({
-  name: {
-    type: String,
-    required: true,
-    trim: true,
-  },
-  description: {
-    type: String,
-  },
-  /* 
-  artists: [
-    {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'Artist',
+    name: {
+        type: String,
+        required: true,
+        trim: true,
     },
-  ],
-  albums: [
-    {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'Album',
+    description: {
+        type: String,
     },
-  ],
-  songs: [
-    {
-      type: mongoose.Schema.Types.ObjectId,
-      ref: 'Song',
-    },
-  ],*/
 });
 
-const Genre = mongoose.model("Genre", genreSchema);
+const Genre = mongoose.model('Genre', genreSchema);
 
 module.exports = Genre;
