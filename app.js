@@ -1,6 +1,7 @@
 // ℹ️ Gets access to environment variables/settings
 // https://www.npmjs.com/package/dotenv
 require('dotenv').config();
+const userRoutes = require('./routes/user.routes');
 
 // Handles http requests (express is node js framework)
 // https://www.npmjs.com/package/express
@@ -20,6 +21,7 @@ const authRoutes = require('./routes/auth.routes');
 
 app.use('/api', indexRoutes);
 app.use('/api/auth', authRoutes);
+app.use('/api/profile', userRoutes);
 
 // ❗ To handle errors. Routes that don't exist or errors that you handle in specific routes
 require('./error-handling')(app);
