@@ -28,6 +28,8 @@ const songSchema = new mongoose.Schema({
   ],
 });
 
+songSchema.index({ title: 1, album: 1 }, { unique: true });
+
 const Song = mongoose.model("Song", songSchema);
 
 module.exports = Song;
