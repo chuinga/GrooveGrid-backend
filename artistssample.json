@@ -1,140 +1,140 @@
 [
-    {
-        "name": "Michael Jackson",
-        "genre": ["65b29582c4a023bb53f257ef"],
-        "image": "michael_jackson.jpg",
-        "albums": ["65b23f895279b07e4df5952d", "65b23f895279b07e4df5953d"]
-    },
-    {
-        "name": "AC/DC",
-        "genre": ["65b29582c4a023bb53f257f0"],
-        "image": "acdc.jpg",
-        "albums": ["65b23f895279b07e4df5952e"]
-    },
-    {
-        "name": "Pink Floyd",
-        "genre": ["65b29582c4a023bb53f257f0"],
-        "image": "pink_floyd.jpg",
-        "albums": ["65b23f895279b07e4df5952f", "65b23f895279b07e4df59533"]
-    },
-    {
-        "name": "The Beatles",
-        "genre": ["65b29582c4a023bb53f257f0"],
-        "image": "the_beatles.jpg",
-        "albums": ["65b22e535279b07e4df594fd"]
-    },
-    {
-        "name": "Fleetwood Mac",
-        "genre": ["65b29582c4a023bb53f257f0"],
-        "image": "fleetwood_mac.jpg",
-        "albums": ["65b23f895279b07e4df59531"]
-    },
-    {
-        "name": "Amy Winehouse",
-        "genre": ["65b29582c4a023bb53f257f5"],
-        "image": "amy_winehouse.jpg",
-        "albums": ["65b23f895279b07e4df59540"]
-    },
-    {
-        "name": "Coldplay",
-        "genre": ["65b29582c4a023bb53f257f0"],
-        "image": "coldplay.jpg",
-        "albums": ["65b23f895279b07e4df59543"]
-    },
-    {
-        "name": "Drake",
-        "genre": ["65b29582c4a023bb53f257f1"],
-        "image": "drake.jpg",
-        "albums": ["65b23f895279b07e4df59544"]
-    },
-    {
-        "name": "Ariana Grande",
-        "genre": ["65b29582c4a023bb53f257ef"],
-        "image": "ariana_grande.jpg",
-        "albums": ["65b23f895279b07e4df59545"]
-    },
-    {
-        "name": "Imagine Dragons",
-        "genre": ["65b29582c4a023bb53f257f0"],
-        "image": "imagine_dragons.jpg",
-        "albums": ["65b23f895279b07e4df59546"]
-    },
-    {
-        "name": "Kanye West",
-        "genre": ["65b29582c4a023bb53f257f1"],
-        "image": "kanye_west.jpg",
-        "albums": ["65b23f895279b07e4df59547"]
-    },
-    {
-        "name": "Lady Gaga",
-        "genre": ["65b29582c4a023bb53f257ef"],
-        "image": "lady_gaga.jpg",
-        "albums": ["65b23f895279b07e4df59548"]
-    },
-    {
-        "name": "Linkin Park",
-        "genre": ["65b29582c4a023bb53f257f0"],
-        "image": "linkin_park.jpg",
-        "albums": ["65b23f895279b07e4df59549"]
-    },
-    {
-        "name": "Eminem",
-        "genre": ["65b29582c4a023bb53f257f1"],
-        "image": "eminem.jpg",
-        "albums": ["65b23f895279b07e4df5954a"]
-    },
-    {
-        "name": "Selena Gomez",
-        "genre": ["65b29582c4a023bb53f257ef"],
-        "image": "selena_gomez.jpg",
-        "albums": ["65b23f895279b07e4df5954b"]
-    },
-    {
-        "name": "Red Hot Chili Peppers",
-        "genre": ["65b29582c4a023bb53f257f0"],
-        "image": "red_hot_chili_peppers.jpg",
-        "albums": ["65b23f895279b07e4df5954c"]
-    },
-    {
-        "name": "Queen",
-        "genre": ["65b29582c4a023bb53f257f0"],
-        "image": "queen.jpg",
-        "albums": ["65b23f895279b07e4df59537"]
-    },
-    {
-        "name": "U2",
-        "genre": ["65b29582c4a023bb53f257f0"],
-        "image": "u2.jpg",
-        "albums": ["65b23f895279b07e4df59538", "65b23f895279b07e4df5953b"]
-    },
-    {
-        "name": "Miles Davis",
-        "genre": ["65b29582c4a023bb53f257f2"],
-        "image": "miles_davis.jpg",
-        "albums": ["65b23f895279b07e4df59539"]
-    },
-    {
-        "name": "Arcade Fire",
-        "genre": ["65b29582c4a023bb53f257f0"],
-        "image": "arcade_fire.jpg",
-        "albums": ["65b23f895279b07e4df5953a"]
-    },
-    {
-        "name": "Adele",
-        "genre": ["65b29582c4a023bb53f257ef"],
-        "image": "adele.jpg",
-        "albums": ["65b23f895279b07e4df59542"]
-    },
-    {
-        "name": "Led Zeppelin",
-        "genre": ["65b29582c4a023bb53f257f0"],
-        "image": "led_zeppelin.jpg",
-        "albums": ["65b23f895279b07e4df59535"]
-    },
-    {
-        "name": "Bob Marley",
-        "genre": ["65b29582c4a023bb53f257f3"],
-        "image": "bob_marley.jpg",
-        "albums": []
-    }
+  {
+    "name": "Michael Jackson",
+    "genre": ["65b29582c4a023bb53f257ef"],
+    "image": "michael_jackson.jpg",
+    "albums": ["65b23f895279b07e4df5952d", "65b23f895279b07e4df5953d"]
+  },
+  {
+    "name": "AC/DC",
+    "genre": ["65b29582c4a023bb53f257f0"],
+    "image": "acdc.jpg",
+    "albums": ["65b23f895279b07e4df5952e"]
+  },
+  {
+    "name": "Pink Floyd",
+    "genre": ["65b29582c4a023bb53f257f0"],
+    "image": "pink_floyd.jpg",
+    "albums": ["65b23f895279b07e4df5952f", "65b23f895279b07e4df59533"]
+  },
+  {
+    "name": "The Beatles",
+    "genre": ["65b29582c4a023bb53f257f0"],
+    "image": "the_beatles.jpg",
+    "albums": ["65b22e535279b07e4df594fd"]
+  },
+  {
+    "name": "Fleetwood Mac",
+    "genre": ["65b29582c4a023bb53f257f0"],
+    "image": "fleetwood_mac.jpg",
+    "albums": ["65b23f895279b07e4df59531"]
+  },
+  {
+    "name": "Amy Winehouse",
+    "genre": ["65b29582c4a023bb53f257f5"],
+    "image": "amy_winehouse.jpg",
+    "albums": ["65b23f895279b07e4df59540"]
+  },
+  {
+    "name": "Coldplay",
+    "genre": ["65b29582c4a023bb53f257f0"],
+    "image": "coldplay.jpg",
+    "albums": ["65b23f895279b07e4df59543"]
+  },
+  {
+    "name": "Drake",
+    "genre": ["65b29582c4a023bb53f257f1"],
+    "image": "drake.jpg",
+    "albums": ["65b23f895279b07e4df59544"]
+  },
+  {
+    "name": "Ariana Grande",
+    "genre": ["65b29582c4a023bb53f257ef"],
+    "image": "ariana_grande.jpg",
+    "albums": ["65b23f895279b07e4df59545"]
+  },
+  {
+    "name": "Imagine Dragons",
+    "genre": ["65b29582c4a023bb53f257f0"],
+    "image": "imagine_dragons.jpg",
+    "albums": ["65b23f895279b07e4df59546"]
+  },
+  {
+    "name": "Kanye West",
+    "genre": ["65b29582c4a023bb53f257f1"],
+    "image": "kanye_west.jpg",
+    "albums": ["65b23f895279b07e4df59547"]
+  },
+  {
+    "name": "Lady Gaga",
+    "genre": ["65b29582c4a023bb53f257ef"],
+    "image": "lady_gaga.jpg",
+    "albums": ["65b23f895279b07e4df59548"]
+  },
+  {
+    "name": "Linkin Park",
+    "genre": ["65b29582c4a023bb53f257f0"],
+    "image": "linkin_park.jpg",
+    "albums": ["65b23f895279b07e4df59549"]
+  },
+  {
+    "name": "Eminem",
+    "genre": ["65b29582c4a023bb53f257f1"],
+    "image": "eminem.jpg",
+    "albums": ["65b23f895279b07e4df5954a"]
+  },
+  {
+    "name": "Selena Gomez",
+    "genre": ["65b29582c4a023bb53f257ef"],
+    "image": "selena_gomez.jpg",
+    "albums": ["65b23f895279b07e4df5954b"]
+  },
+  {
+    "name": "Red Hot Chili Peppers",
+    "genre": ["65b29582c4a023bb53f257f0"],
+    "image": "red_hot_chili_peppers.jpg",
+    "albums": ["65b23f895279b07e4df5954c"]
+  },
+  {
+    "name": "Queen",
+    "genre": ["65b29582c4a023bb53f257f0"],
+    "image": "queen.jpg",
+    "albums": ["65b23f895279b07e4df59537"]
+  },
+  {
+    "name": "U2",
+    "genre": ["65b29582c4a023bb53f257f0"],
+    "image": "u2.jpg",
+    "albums": ["65b23f895279b07e4df59538", "65b23f895279b07e4df5953b"]
+  },
+  {
+    "name": "Miles Davis",
+    "genre": ["65b29582c4a023bb53f257f2"],
+    "image": "miles_davis.jpg",
+    "albums": ["65b23f895279b07e4df59539"]
+  },
+  {
+    "name": "Arcade Fire",
+    "genre": ["65b29582c4a023bb53f257f0"],
+    "image": "arcade_fire.jpg",
+    "albums": ["65b23f895279b07e4df5953a"]
+  },
+  {
+    "name": "Adele",
+    "genre": ["65b29582c4a023bb53f257ef"],
+    "image": "adele.jpg",
+    "albums": ["65b23f895279b07e4df59542"]
+  },
+  {
+    "name": "Led Zeppelin",
+    "genre": ["65b29582c4a023bb53f257f0"],
+    "image": "led_zeppelin.jpg",
+    "albums": ["65b23f895279b07e4df59535"]
+  },
+  {
+    "name": "Bob Marley",
+    "genre": ["65b29582c4a023bb53f257f3"],
+    "image": "bob_marley.jpg",
+    "albums": []
+  }
 ]
