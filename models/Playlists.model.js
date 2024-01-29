@@ -19,6 +19,11 @@ const playlistSchema = new mongoose.Schema({
             ref: 'Song',
         },
     ],
+    createdBy: {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: 'User',
+        required: true,
+    },
 });
 
 const Playlist = mongoose.model('Playlist', playlistSchema);

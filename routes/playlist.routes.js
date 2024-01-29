@@ -7,6 +7,7 @@ const router = require('express').Router();
 // GET all Playlists
 router.get('/', async (req, res, next) => {
     try {
+        const userId = req.query.userId;
         const allPlaylists = await Playlists.find()
             .populate('artists')
             .populate('songs');
@@ -34,9 +35,6 @@ router.get('/:playlistId', async (req, res, next) => {
 // POST one Playlist
 router.post('/', isAuthenticated, async (req, res, next) => {
     const payload = req.body;
-
-    const { userId } = req.payload;
-    payload.createdBy = userId;
 
     try {
         const createdPlaylist = await Playlists.create(payload);
