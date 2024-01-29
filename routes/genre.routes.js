@@ -43,7 +43,7 @@ router.get("/:genreId/artists", async (req, res, next) => {
 
     // Find artists that belong to this genre and populate their albums
     const artists = await Artist.find({ genre: genreId }).populate("albums");
-
+    console.log(artists);
     // Structure the response
     const response = {
       genre: genre.name, // genre's name
