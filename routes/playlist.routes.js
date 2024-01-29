@@ -20,19 +20,10 @@ router.get('/', async (req, res, next) => {
 // GET one Playlist
 router.get('/:playlistId', async (req, res, next) => {
     const { playlistId } = req.params;
-
     try {
         const onePlaylist = await Playlists.findById(playlistId)
-            .populate({
-                path: 'songs',
-                model: 'songs',
-                populate: {
-                    path: 'artists',
-                    model: 'artists',
-                },
-            })
-            .populate('artists');
-
+            .populate('artists')
+            .populate('songs');
         res.status(200).json(onePlaylist);
     } catch (error) {
         console.error(error);
