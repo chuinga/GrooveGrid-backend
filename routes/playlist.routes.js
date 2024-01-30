@@ -84,12 +84,15 @@ router.post(
 
 // PUT one Playlist
 router.put('/:playlistId', isAuthenticated, async (req, res, next) => {
-    const { userId } = req.payload;
     const payload = req.body;
+    const { createdBy: userId } = payload;
     const { playlistId } = req.params;
     try {
         const playlistToUpdate = await Playlists.findById(playlistId);
-        if (playlistToUpdate.createdBy[0] == userId) {
+        if (
+            playlistToUpdate.createdBy &&
+            playlistToUpdate.createdBy.toString() === userId
+        ) {
             const updatedPlaylist = await Playlists.findByIdAndUpdate(
                 playlistId,
                 payload,
