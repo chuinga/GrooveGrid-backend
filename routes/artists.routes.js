@@ -27,7 +27,6 @@ router.get("/:artistId", async (req, res, next) => {
       ...oneArtist.toObject(), // Convert to plain object if needed
       albums: albums,
     };
-
     res.status(200).json(artistWithAlbums);
   } catch (error) {
     next(error);
