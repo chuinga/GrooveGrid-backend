@@ -5,7 +5,7 @@ const mongoose = require('mongoose')
 // ℹ️ Sets the MongoDB URI for our app to have access to it.
 // If no env has been set, we dynamically set it to whatever the folder name was upon the creation of the app
 
-const MONGO_URI = process.env.MONGODB_URI /* || 'mongodb://127.0.0.1:27017/restAPI' */
+const MONGO_URI = "mongodb+srv://groove-grid-main-db-0bbf3d3fd44:g2u3nz3UV1DFRmhypVZ4ykMDPQ8M27@prod-us-central1-3.yr9so.mongodb.net/groove-grid-main-db-0bbf3d3fd44"/* process.env.MONGODB_URI || 'mongodb://127.0.0.1:27017/restAPI' */
 
 const withDB = async serverListener => {
   try {
