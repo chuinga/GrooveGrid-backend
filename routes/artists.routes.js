@@ -36,6 +36,7 @@ router.get("/:artistId", async (req, res, next) => {
 // POST a new Artist
 router.post("/", isAuthenticated, async (req, res, next) => {
   const payload = req.body;
+  console.log(payload)
   const { userId } = req.payload;
   payload.createdBy = userId;
   try {

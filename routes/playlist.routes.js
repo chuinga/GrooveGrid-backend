@@ -8,7 +8,7 @@ const router = require("express").Router();
 router.get("/", async (req, res, next) => {
   try {
     const userId = req.query.userId;
-    const allPlaylists = await Playlists.find()
+    const allPlaylists = await Playlists.find({ createdBy: userId })
       .populate("artists")
       .populate("songs");
     res.status(200).json(allPlaylists);
@@ -21,8 +21,13 @@ router.get("/", async (req, res, next) => {
 // GET one Playlist
 router.get("/:playlistId", async (req, res, next) => {
   const { playlistId } = req.params;
+  const userId = req.query.userId;
+
   try {
-    const onePlaylist = await Playlists.findById(playlistId)
+    const onePlaylist = await Playlists.findOne({
+      createdBy: userId,
+      _id: playlistId,
+    })
       .populate("artists")
       .populate("songs");
     res.status(200).json(onePlaylist);
@@ -45,14 +50,49 @@ router.post("/", isAuthenticated, async (req, res, next) => {
   }
 });
 
+router.post(
+  "/:playlistId/addsong/:songId",
+  isAuthenticated,
+  async (req, res, next) => {
+    const { userId } = req.payload;
+    const { playlistId, songId } = req.params;
+
+    try {
+      const playlist = await Playlists.findOne({
+        _id: playlistId,
+        createdBy: userId,
+      });
+
+      if (playlist) {
+        playlist.songs.push(songId);
+        await playlist.save();
+
+        res.status(200).json({
+          message: "Song added to playlist successfully",
+        });
+      } else {
+        res.status(404).json({
+          message: "Playlist not found or not owned by the user",
+        });
+      }
+    } catch (error) {
+      console.error(error);
+      next(error);
+    }
+  }
+);
+
 // PUT one Playlist
 router.put("/:playlistId", isAuthenticated, async (req, res, next) => {
-  const { userId } = req.payload;
   const payload = req.body;
+  const { createdBy: userId } = payload;
   const { playlistId } = req.params;
   try {
     const playlistToUpdate = await Playlists.findById(playlistId);
-    if (playlistToUpdate.createdBy == userId) {
+    if (
+      playlistToUpdate.createdBy &&
+      playlistToUpdate.createdBy.toString() === userId
+    ) {
       const updatedPlaylist = await Playlists.findByIdAndUpdate(
         playlistId,
         payload,
@@ -72,11 +112,12 @@ router.put("/:playlistId", isAuthenticated, async (req, res, next) => {
 
 // DELETE one Playlist
 router.delete("/:playlistId", isAuthenticated, async (req, res, next) => {
-  const { userId } = req.payload;
   const { playlistId } = req.params;
+  const { createdBy: userId } = req.payload;
+
   try {
     const playlistToDelete = await Playlists.findById(playlistId);
-    if (playlistToDelete.createdBy == userId) {
+    if (playlistToDelete.createdBy[0] == userId) {
       await Playlists.findByIdAndDelete(playlistId);
       res.status(204).json();
     } else {
