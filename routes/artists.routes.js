@@ -36,10 +36,17 @@ router.get("/:artistId", async (req, res, next) => {
 // POST a new Artist
 router.post("/", isAuthenticated, async (req, res, next) => {
   const payload = req.body;
-  console.log(payload)
   const { userId } = req.payload;
   payload.createdBy = userId;
+
   try {
+    // Check if an artist with the same name already exists
+    const existingArtist = await Artist.findOne({ name: payload.name });
+    if (existingArtist) {
+      return res.status(400).json({ message: "Artist already exists" });
+    }
+
+    // Proceed with artist creation
     const createdArtist = await Artist.create(payload);
     res.status(201).json(createdArtist);
   } catch (error) {
