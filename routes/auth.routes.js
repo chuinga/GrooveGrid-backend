@@ -97,6 +97,7 @@ router.post('/login', (req, res, next) => {
             res.status(500).json({ message: 'Internal Server Error' })
         );
 });
+
 // GET  /auth/verify
 router.get('/verify', isAuthenticated, (req, res, next) => {
     console.log(`req.payload`, req.payload);
